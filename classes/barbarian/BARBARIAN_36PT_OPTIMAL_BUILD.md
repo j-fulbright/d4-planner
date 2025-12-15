@@ -19,7 +19,7 @@ Reach the gate to attach legendary boards while maximizing damage with rare node
 | **Glyph socket area nodes** | 6 | Mixed stats |
 | **Additional efficient nodes** | 5 | Mixed stats |
 
-**Note:** Nodes give different primary stats - not just Strength! The starting board has a mix of Strength, Dexterity, Willpower, and Intelligence nodes.
+**Note:** Nodes give different primary stats - not just Strength! All paragon boards have a mix of Strength, Dexterity, Willpower, and Intelligence nodes.
 
 ---
 
@@ -49,7 +49,7 @@ Reach the gate to attach legendary boards while maximizing damage with rare node
 - **Willpower:** ~+35 (some nodes give Will instead of Str)
 - **Intelligence:** ~+5 (occasional Int nodes)
 
-**Important:** Starting board nodes give MIXED stats, not just your primary stat!
+**Important:** ALL paragon board nodes give MIXED stats, not just your class's primary stat! This applies to starting boards AND legendary boards.
 
 ### **Damage & Defense Bonuses:**
 - **Damage:** +20% (from Brawn rare)

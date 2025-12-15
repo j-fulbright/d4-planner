@@ -222,18 +222,20 @@ adjacent = (dx <= 1 && dy <= 1) && (dx + dy > 0)
 
 ## Node Stat Distribution
 
-**Important:** Starting board nodes give MIXED primary stats, not just the class's main stat!
+**Critical:** ALL paragon board nodes (starting AND legendary) give MIXED primary stats, not just the class's main stat!
 
-Example from Barbarian starting board:
+Example from any Barbarian board:
 - Some nodes: +5 Strength
 - Some nodes: +5 Dexterity
 - Some nodes: +5 Willpower
 - Some nodes: +5 Intelligence
-- Gate node: +1 to ALL stats
+- Gate nodes: +1 to ALL stats
 
 **Source:** Check `nodes[nodeId].searchText` field for stat type (e.g., "willpower normal node +5")
 
 **Impact on builds:**
-- 36-point allocation typically gives: ~85 main stat, ~35 secondary, ~35 tertiary, ~5 quaternary
+- A 36-point allocation typically gives: ~85 main stat, ~35 secondary, ~35 tertiary, ~5 quaternary
 - NOT +180 of single stat as previously assumed
-- This is why stat diversity matters for rare node bonus thresholds
+- This applies to ALL boards, not just starting board
+- Stat diversity matters for rare node bonus thresholds (e.g., 190 Dexterity for bonuses)
+- When building across multiple boards, you naturally accumulate all 4 primary stats
