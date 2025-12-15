@@ -1,5 +1,6 @@
 # Diablo 4 Paragon Board - Node Types Reference
 
+Universal node types across ALL paragon boards and ALL classes.
 Based on actual in-game tooltips and screenshots.
 
 ---
@@ -41,46 +42,27 @@ Based on actual in-game tooltips and screenshots.
 
 **Stats:** POWERFUL bonuses + bonus effects with stat thresholds
 
-### **Barbarian Starting Board Rare Nodes:**
+**Characteristics:**
+- Named nodes (hover to see name like "Brawn", "Tenacity", etc.)
+- 2-3 bonuses (e.g., +20% Damage, +4% Life)
+- Often have BONUS EFFECTS at high stat thresholds
+- Threshold examples: 630 Strength, 190 Willpower, 190 Dexterity
+- Worth 20-60x more value than normal nodes
 
-#### **1. Brawn**
-**Base Bonus:**
-- +20.0% Damage
-- +4.0% Maximum Life
+**Examples of rare node bonuses (vary by class and board):**
+- Damage bonuses: +20-30%
+- Elite damage: +30%
+- Primary stat bonuses: +10
+- Life/Armor bonuses: +2-4%
+- Bonus effects: Additional bonuses if stat thresholds met
 
-**Bonus Effect:** Another +20.0% Damage if requirements met:
-- 630 Strength (Barbarian)
+**How to identify:**
+- Gold/orange color (very obvious)
+- Has a NAME in the tooltip (not just "Normal Node" or "Magic Node")
+- Multiple bonuses listed
+- Usually shows threshold requirements at bottom of tooltip
 
----
-
-#### **2. Tenacity**
-**Base Bonus:**
-- +4.0% Maximum Life
-- +2.0% Total Armor
-
-**Bonus Effect:** Another +4.0% Maximum Life if requirements met:
-- 630 Strength (Barbarian)
-- 190 Willpower (Barbarian)
-
----
-
-#### **3. Raw Power**
-**Base Bonus:**
-- +20.0% Damage
-- +10 Strength
-
-**Bonus Effect:** Another +20.0% Damage if requirements met:
-- 190 Dexterity
-
----
-
-#### **4. Iron Strength**
-**Base Bonus:**
-- +30.0% Damage to Elites
-- +10 Strength
-
-**Bonus Effect:** Another +30.0% Damage to Elites if requirements met:
-- 190 Willpower
+**Note:** Each paragon board has 4 rare nodes. Which specific rares depend on the board. Check `classBoards` data or in-game tooltips for board-specific rare nodes.
 
 ---
 
@@ -128,21 +110,28 @@ Based on actual in-game tooltips and screenshots.
 
 ---
 
-## 🔍 Rare Node Bonus Thresholds
+## 🔍 Rare Node Bonus Thresholds (Universal Mechanic)
 
-**To unlock rare node BONUS effects:**
+**How thresholds work:**
+- Rare nodes have BASE bonuses (always active)
+- Rare nodes have BONUS effects (require stat thresholds)
+- Thresholds vary: Common values are 190, 630, or other high numbers
+- Threshold stats vary: Strength, Dexterity, Willpower, Intelligence
 
-| Rare Node | Base Bonus | Threshold Needed | Bonus Effect |
-|-----------|------------|------------------|--------------|
-| **Brawn** | +20% Dmg, 4% Life | 630 Strength | +20% Damage again (40% total!) |
-| **Tenacity** | 4% Life, 2% Armor | 630 Str + 190 Will | +4% Life again (8% total!) |
-| **Raw Power** | +20% Dmg, +10 Str | 190 Dexterity | +20% Damage again (40% total!) |
-| **Iron Strength** | +30% Elite Dmg, +10 Str | 190 Willpower | +30% Elite Dmg again (60% total!) |
+**Example format:**
+```
+Rare Node Name
+  • Base: +20% Damage, +4% Life
+  • Bonus: Another +20% Damage if requirements met:
+    ♦ 630 Strength
+```
 
 **Reality Check:**
-- With 36 points: You get BASE bonuses only (can't hit 630 Str or 190 secondary stats)
-- With 100+ points across multiple boards: You might hit some thresholds
-- Thresholds are endgame goals, not something to worry about at 36 points
+- With 36 points on one board: BASE bonuses only ✅
+- With 100+ points across multiple boards: Some thresholds unlocked ✅
+- Thresholds are endgame optimization, not early-game concern
+
+**Note:** Specific rare nodes and their thresholds are in the class-specific data files. Check `classes/[classname]/[class]-boards-summary.json` for exact rare node details per board.
 
 ---
 
