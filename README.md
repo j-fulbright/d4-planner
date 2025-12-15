@@ -290,28 +290,6 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 
 ---
 
-## 🎮 Optimal Path Strategies
-
-### Speed Runner (Most Common)
-- **Path:** Center rush (14 nodes)
-- **Stats:** +75 primary stat
-- **Goal:** Unlock legendary boards ASAP
-- **Best For:** All classes during initial progression
-
-### Damage Focus
-- **Path:** Left branch + damage rares
-- **Stats:** +40 primary stat + rare bonuses
-- **Goal:** Early power spike
-- **Best For:** Farming builds, elite hunters
-
-### Balanced Build
-- **Path:** Right branch + defensive rares
-- **Stats:** +40 primary stat + survivability
-- **Goal:** Sustainable progression
-- **Best For:** Hardcore, tank builds
-
----
-
 ## 💡 Pro Tips
 
 1. **Rare nodes are 20-40x more valuable** than common nodes per point
