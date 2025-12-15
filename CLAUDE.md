@@ -200,4 +200,40 @@ adjacent = (dx <= 1 && dy <= 1) && (dx + dy > 0)
 4. **Y-coordinate confusion** - In-game UI shows Y=0 at bottom, but data is consistent
 5. **Node IDs can repeat** at different positions - use (x,y) coordinates as unique keys
 6. **Legendary nodes** are typically near board center, not at gates
-7. **Rare nodes** vary by class but are in similar positions on starting board
+7. **Rare nodes vary by class but are in similar positions on starting board
+
+## Starting Board Rare Node Order
+
+**Critical:** Rare nodes are encountered in a specific order when pathing from start to gate.
+
+**For Barbarian (and likely similar for other classes):**
+- **First 2 rares (closest to start, Y=4-5 area):**
+  - Brawn (+20% Damage, 4% Life)
+  - Tenacity (4% Life, +2% Armor)
+
+- **Last 2 rares (further up, Y=8+ area, past/near gate):**
+  - Raw Power (+20% Damage, +10 Strength)
+  - Iron Strength (+30% Elite Damage, +10 Strength)
+
+**Implication for builds:**
+- With limited points (36 or less), take **Brawn + Tenacity** - they're on the way to gate
+- Raw Power/Iron Strength require backtracking or going past gate - inefficient for <50 points
+- Documentation should recommend the **accessible** rare nodes for realistic point allocations
+
+## Node Stat Distribution
+
+**Important:** Starting board nodes give MIXED primary stats, not just the class's main stat!
+
+Example from Barbarian starting board:
+- Some nodes: +5 Strength
+- Some nodes: +5 Dexterity
+- Some nodes: +5 Willpower
+- Some nodes: +5 Intelligence
+- Gate node: +1 to ALL stats
+
+**Source:** Check `nodes[nodeId].searchText` field for stat type (e.g., "willpower normal node +5")
+
+**Impact on builds:**
+- 36-point allocation typically gives: ~85 main stat, ~35 secondary, ~35 tertiary, ~5 quaternary
+- NOT +180 of single stat as previously assumed
+- This is why stat diversity matters for rare node bonus thresholds
