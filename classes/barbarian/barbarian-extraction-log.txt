@@ -1,0 +1,127 @@
+Loading parsed data...
+
+=== Analyzing Classes ===
+
+--- Class ID: 0 ---
+Number of boards: 10
+Keyword matches: { Barbarian: 1, Sorcerer: 1, Necromancer: 1 }
+Sample Rare: Elemental Balance
+Attributes: +20.0% Non-Physical Damage, +10 Intelligence
+>>> Likely class: Barbarian (1 keyword matches)
+
+--- Class ID: 1 ---
+Number of boards: 10
+Keyword matches: { Druid: 1, Spiritborn: 1 }
+Sample Rare: Impel
+Attributes: +20.0% Damage, +10 Willpower
+>>> Likely class: Druid (1 keyword matches)
+
+--- Class ID: 2 ---
+Number of boards: 10
+Keyword matches: { Barbarian: 1 }
+Sample Rare: Raw Power
+Attributes: +20.0% Damage, +10 Strength
+>>> Likely class: Barbarian (1 keyword matches)
+
+--- Class ID: 3 ---
+Number of boards: 10
+Keyword matches: { Rogue: 1 }
+Sample Rare: Skillful
+Attributes: +20.0% Damage, +10 Dexterity
+>>> Likely class: Rogue (1 keyword matches)
+
+--- Class ID: 4 ---
+Number of boards: 10
+Keyword matches: { Sorcerer: 1, Necromancer: 1 }
+Sample Rare: Knowledge
+Attributes: +20.0% Damage, +10 Intelligence
+>>> Likely class: Sorcerer (1 keyword matches)
+
+--- Class ID: 5 ---
+Number of boards: 9
+Keyword matches: { Druid: 1, Rogue: 1, Spiritborn: 1 }
+Sample Rare: Skillful
+Attributes: +20.0% Damage, +10 Dexterity
+>>> Likely class: Druid (1 keyword matches)
+
+--- Class ID: 6 ---
+Number of boards: 10
+Keyword matches: { Barbarian: 1 }
+Sample Rare: Raw Power
+Attributes: +20.0% Damage, +10 Strength
+>>> Likely class: Barbarian (1 keyword matches)
+
+
+=== Enter the Barbarian Class ID ===
+From the analysis above, which class ID appears to be Barbarian?
+Common attributes: Strength, Fury, Berserking, Bleeding, Physical, Weapon skills
+
+=== Checking for Strength (Barbarian stat) ===
+Class 2: Strength=true, Fury=true, Berserking=true
+
+>>> Found Barbarian! Class ID: 2
+✓ Saved Barbarian data to barbarian-paragon-boards.json
+
+=== Barbarian Paragon Boards Summary ===
+Total boards: 10
+
+Board 1 (ID: 921459):
+  - Nodes: 75
+  - Legendary nodes: 0
+  - Rare nodes: 4
+
+Board 2 (ID: 921475):
+  - Nodes: 191
+  - Legendary nodes: 1
+  - Rare nodes: 6
+  - Legendary: Hemorrhage
+
+Board 3 (ID: 921460):
+  - Nodes: 164
+  - Legendary nodes: 1
+  - Rare nodes: 6
+  - Legendary: Blood Rage
+
+Board 4 (ID: 921481):
+  - Nodes: 156
+  - Legendary nodes: 1
+  - Rare nodes: 6
+  - Legendary: Carnage
+
+Board 5 (ID: 939079):
+  - Nodes: 158
+  - Legendary nodes: 1
+  - Rare nodes: 6
+  - Legendary: Decimator
+
+Board 6 (ID: 993298):
+  - Nodes: 185
+  - Legendary nodes: 1
+  - Rare nodes: 6
+  - Legendary: Bone Breaker
+
+Board 7 (ID: 997728):
+  - Nodes: 171
+  - Legendary nodes: 1
+  - Rare nodes: 6
+  - Legendary: Flawless Technique
+
+Board 8 (ID: 1194322):
+  - Nodes: 162
+  - Legendary nodes: 1
+  - Rare nodes: 6
+  - Legendary: Warbringer
+
+Board 9 (ID: 1194330):
+  - Nodes: 174
+  - Legendary nodes: 1
+  - Rare nodes: 6
+  - Legendary: Weapons Master
+
+Board 10 (ID: 1985448):
+  - Nodes: 171
+  - Legendary nodes: 1
+  - Rare nodes: 6
+  - Legendary: Force of Nature
+Class 4: Strength=true, Fury=false, Berserking=false
+Class 6: Strength=true, Fury=false, Berserking=false

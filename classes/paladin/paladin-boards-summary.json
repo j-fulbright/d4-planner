@@ -1,0 +1,793 @@
+{
+  "className": "Paladin",
+  "classId": "6",
+  "totalBoards": 10,
+  "boards": [
+    {
+      "index": 1,
+      "id": 2436481,
+      "name": "Starting Board",
+      "nodeCount": 75,
+      "legendaryNodeCount": 0,
+      "rareNodeCount": 4,
+      "isStartingBoard": true,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        }
+      ],
+      "gateCount": 1,
+      "legendaryNodes": [],
+      "rareNodes": [
+        {
+          "name": "Raw Power",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Iron Strength",
+          "attributes": [
+            "+30.0% Damage to Elites",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Tenacity",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Brawn",
+          "attributes": [
+            "+20.0% Damage",
+            "4.0% Maximum Life"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "id": 2436511,
+      "name": "Castle",
+      "nodeCount": 191,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Castle",
+          "description": "You deal increased damage equal to 1.8% of your Armor.Current Bonus: 0.0%[x]"
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Knight",
+          "attributes": [
+            "+20.0% Physical Damage",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Ironclad",
+          "attributes": [
+            "+10 Strength",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Insulate",
+          "attributes": [
+            "+20.0% Damage to Crowd Controlled Enemies",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Stalwart",
+          "attributes": [
+            "5% Block Chance",
+            "5% Blocked Damage Reduction"
+          ]
+        },
+        {
+          "name": "Grappler",
+          "attributes": [
+            "+20.0% Physical Damage",
+            "+20.0% Damage to Crowd Controlled Enemies"
+          ]
+        },
+        {
+          "name": "Defiance",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+3.0% Total Resistance"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "id": 2436844,
+      "name": "Shield Bearer",
+      "nodeCount": 164,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Shield Bearer",
+          "description": "You deal increased damage equal to 110% of your Block chance.Current Bonus: 0.0%[x]"
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Stalwart",
+          "attributes": [
+            "5% Block Chance",
+            "5% Blocked Damage Reduction"
+          ]
+        },
+        {
+          "name": "Bodyguard",
+          "attributes": [
+            "+20.0% Physical Damage",
+            "5% Block Chance"
+          ]
+        },
+        {
+          "name": "Knight",
+          "attributes": [
+            "+20.0% Physical Damage",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Constrict",
+          "attributes": [
+            "+1.5 Thorns",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Bludgeoning ",
+          "attributes": [
+            "+20.0% Damage",
+            "+20.0% Damage to Crowd Controlled Enemies"
+          ]
+        },
+        {
+          "name": "Growth",
+          "attributes": [
+            "+1.5 Thorns",
+            "4.0% Maximum Life"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "id": 2438913,
+      "name": "Fervent",
+      "nodeCount": 156,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Fervent",
+          "description": "You gain 30%[x] increased Critical Strike damage and 8%[+] Critical Strike chance for each stack of Fervor you have."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Constitution",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Sturdy",
+          "attributes": [
+            "+3.0% Total Armor",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Knight",
+          "attributes": [
+            "+20.0% Physical Damage",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Fencing",
+          "attributes": [
+            "+30.0% Critical Strike Damage",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Surgical",
+          "attributes": [
+            "+8 Maximum Faith",
+            "+30.0% Critical Strike Damage"
+          ]
+        },
+        {
+          "name": "Skirmish",
+          "attributes": [
+            "+20.0% Physical Damage",
+            "+2.0% Total Armor"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "id": 2438973,
+      "name": "Preacher",
+      "nodeCount": 160,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Preacher",
+          "description": "Your Zealot skills gain 15.0%[+] increased Attack Speed.  You deal increased damage equal to 65%[x] of your Attack Speed."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Hearty",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Whale",
+          "attributes": [
+            "+2.5% Attack Speed",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Recovery",
+          "attributes": [
+            "+6.0% Healing Received",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Bolster",
+          "attributes": [
+            "+3.2% Fortify Generation",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Inner Strength",
+          "attributes": [
+            "+20.0% Damage while Fortified",
+            "+25.0% Damage while Healthy"
+          ]
+        },
+        {
+          "name": "Friction",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+2.5% Attack Speed"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "id": 2438992,
+      "name": "Divinity",
+      "nodeCount": 185,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Divinity",
+          "description": "While in Arbiter you deal 90%[x] increased damage to Vulnerable enemies."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Sturdy",
+          "attributes": [
+            "+3.0% Total Armor",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Defiance",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Oppressive",
+          "attributes": [
+            "+25.0% Vulnerable Damage",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Cautious Fighter",
+          "attributes": [
+            "+20.0% Damage",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Flayer",
+          "attributes": [
+            "+25.0% Vulnerable Damage",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Champion",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Strength"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "id": 2439024,
+      "name": "Relentless",
+      "nodeCount": 171,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Relentless",
+          "description": "While moving and for 2 seconds after, you deal 80%[x] increased damage and have 30%[+] cooldown reduction."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Battering Ram",
+          "attributes": [
+            "+5.0% Movement Speed",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Cull",
+          "attributes": [
+            "+25.0% Vulnerable Damage",
+            "+5.0% Movement Speed"
+          ]
+        },
+        {
+          "name": "Inured",
+          "attributes": [
+            "2.0% Cooldown Reduction",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Defiance",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Endure",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Dervish",
+          "attributes": [
+            "+10 Strength",
+            "2.0% Cooldown Reduction"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "id": 2439031,
+      "name": "Sentencing",
+      "nodeCount": 162,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Sentencing",
+          "description": "Judging an enemy causes them to take 90%[x] more damage from you until they die."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Benediction",
+          "attributes": [
+            "+35.0% <span style=\"color: #E3E0D9\">Judgement</span> Damage",
+            "+6.0% Healing Received"
+          ]
+        },
+        {
+          "name": "Restorative",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+6.0% Healing Received"
+          ]
+        },
+        {
+          "name": "Sturdy",
+          "attributes": [
+            "+3.0% Total Armor",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Luminous",
+          "attributes": [
+            "+20.0% Holy Damage",
+            "+2.5% Attack Speed"
+          ]
+        },
+        {
+          "name": "Grace",
+          "attributes": [
+            "+5.0% Lucky Hit Chance",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Endure",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+10 Strength"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "id": 2439033,
+      "name": "Endure",
+      "nodeCount": 174,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Endure",
+          "description": "You deal 90%[x] increased damage while Fortified."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Grace",
+          "attributes": [
+            "+5.0% Lucky Hit Chance",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Wrathful",
+          "attributes": [
+            "+20.0% Holy Damage",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Restorative",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+6.0% Healing Received"
+          ]
+        },
+        {
+          "name": "Anointed",
+          "attributes": [
+            "+6.0% Healing Received",
+            "+20.0% Holy Damage"
+          ]
+        },
+        {
+          "name": "Radiance",
+          "attributes": [
+            "+20.0% Holy Damage",
+            "+100 Life per 5 Seconds"
+          ]
+        },
+        {
+          "name": "Restorative",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+6.0% Healing Received"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "id": 2439035,
+      "name": "Beacon",
+      "nodeCount": 171,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Beacon",
+          "description": "While at least one ally or mercenary is within one of your Auras you deal 90%[x] increased damage."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Champion",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Fortitude",
+          "attributes": [
+            "+8 Maximum Faith",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Constitution",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Blurring",
+          "attributes": [
+            "+30.0% Critical Strike Damage",
+            "+2.5% Attack Speed"
+          ]
+        },
+        {
+          "name": "Spiked Shield",
+          "attributes": [
+            "5% Block Chance",
+            "+20.0% Damage"
+          ]
+        },
+        {
+          "name": "Sturdy",
+          "attributes": [
+            "+3.0% Total Armor",
+            "4.0% Maximum Life"
+          ]
+        }
+      ]
+    }
+  ]
+}

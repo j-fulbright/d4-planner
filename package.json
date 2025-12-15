@@ -1,0 +1,12 @@
+{
+  "name": "d4-paragon-scraper",
+  "version": "1.0.0",
+  "description": "Scraper for Diablo 4 paragon board data from Maxroll",
+  "main": "scrape-paragon-boards.js",
+  "scripts": {
+    "scrape": "node scrape-paragon-boards.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  }
+}

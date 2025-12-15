@@ -1,0 +1,793 @@
+{
+  "className": "Barbarian",
+  "classId": "2",
+  "totalBoards": 10,
+  "boards": [
+    {
+      "index": 1,
+      "id": 921459,
+      "name": "Board_921459",
+      "nodeCount": 75,
+      "legendaryNodeCount": 0,
+      "rareNodeCount": 4,
+      "isStartingBoard": true,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        }
+      ],
+      "gateCount": 1,
+      "legendaryNodes": [],
+      "rareNodes": [
+        {
+          "name": "Raw Power",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Iron Strength",
+          "attributes": [
+            "+30.0% Damage to Elites",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Tenacity",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Brawn",
+          "attributes": [
+            "+20.0% Damage",
+            "4.0% Maximum Life"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "id": 921475,
+      "name": "Board_921475",
+      "nodeCount": 191,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Hemorrhage",
+          "description": "Applying a Bleed to a Vulnerable enemy deals 60%[x] increased damage."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Butcher",
+          "attributes": [
+            "+30.0% Physical Damage Over Time",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Flayer",
+          "attributes": [
+            "+25.0% Vulnerable Damage",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Blood Clotting",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Bloodbathed",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Fleeting",
+          "attributes": [
+            "12.0% Impairment Reduction",
+            "2.0% Dodge Chance"
+          ]
+        },
+        {
+          "name": "Lacerator",
+          "attributes": [
+            "+30.0% Physical Damage Over Time",
+            "+25.0% Vulnerable Damage"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "id": 921460,
+      "name": "Board_921460",
+      "nodeCount": 164,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Blood Rage",
+          "description": "Killing a Bleeding enemy has 10% chance to grant Berserking for 5 seconds. Your damage is increased by 60%[x] while Berserking."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Restorative",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+6.0% Healing Received"
+          ]
+        },
+        {
+          "name": "Grit",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+6.0% Healing Received"
+          ]
+        },
+        {
+          "name": "Wrath",
+          "attributes": [
+            "+20.0% Damage while <span style=\"color: #E3E0D9\">Berserking</span>",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Revel",
+          "attributes": [
+            "+20.0% Damage to Bleeding Enemies",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Bloodless",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Craving",
+          "attributes": [
+            "+20.0% Damage to Bleeding Enemies",
+            "+20.0% Damage while <span style=\"color: #E3E0D9\">Berserking</span>"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "id": 921481,
+      "name": "Board_921481",
+      "nodeCount": 156,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Carnage",
+          "description": "Berserking now additionally grants 15%[+] Attack Speed. You deal 45%[x] increased Fire and Physical damage."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Tenacity",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Brash",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Fierce",
+          "attributes": [
+            "+30.0% Critical Strike Damage",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Berserker",
+          "attributes": [
+            "+20.0% Damage while <span style=\"color: #E3E0D9\">Berserking</span>",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Recuperate",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+100 Life per 5 Seconds"
+          ]
+        },
+        {
+          "name": "Enraged",
+          "attributes": [
+            "+20.0% Damage while <span style=\"color: #E3E0D9\">Berserking</span>",
+            "+2.0% Critical Strike Chance"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "id": 939079,
+      "name": "Board_939079",
+      "nodeCount": 158,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Decimator",
+          "description": "You deal 25%[x] increased damage to Vulnerable enemies. Your Overpower deals 25%[x] increased damage."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Demolish",
+          "attributes": [
+            "+25.0% Vulnerable Damage",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Destroyer",
+          "attributes": [
+            "+70.0% Overpower Damage",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Brawn",
+          "attributes": [
+            "+20.0% Damage",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Pillage",
+          "attributes": [
+            "+2.0% Total Armor",
+            "+25.0% Vulnerable Damage"
+          ]
+        },
+        {
+          "name": "Arrogance",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+6.0% Healing Received"
+          ]
+        },
+        {
+          "name": "Restorative",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+6.0% Healing Received"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "id": 993298,
+      "name": "Board_993298",
+      "nodeCount": 185,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Bone Breaker",
+          "description": "Every 12 seconds, your next Skill is guaranteed to Overpower. Whenever you Overpower, your Ultimate Skills deal 10%[x] increased damage for 10 seconds, up to 80%[x]. "
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Bulwark",
+          "attributes": [
+            "+20.0% Damage while Fortified",
+            "+3.2% Fortify Generation"
+          ]
+        },
+        {
+          "name": "Tenacity",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Inner Strength",
+          "attributes": [
+            "+20.0% Damage while Fortified",
+            "+25.0% Damage while Healthy"
+          ]
+        },
+        {
+          "name": "Vigor",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+6.0% Healing Received"
+          ]
+        },
+        {
+          "name": "Brutality",
+          "attributes": [
+            "+70.0% Overpower Damage",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Bludgeoner",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Strength"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "id": 997728,
+      "name": "Board_997728",
+      "nodeCount": 171,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Flawless Technique",
+          "description": "Consecutive attacking with the same weapon increases your Critical Strike chance by 15%[+] and Critical Strike Damage by 45%[x] for 4 seconds."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Defensive Stance",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Brash",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Nimble",
+          "attributes": [
+            "+2.5% Attack Speed",
+            "+20.0% Damage"
+          ]
+        },
+        {
+          "name": "Slayer",
+          "attributes": [
+            "+3.0% Total Armor",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Heavy Blows",
+          "attributes": [
+            "+30.0% Critical Strike Damage",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Wild Force",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Strength"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "id": 1194322,
+      "name": "Board_1194322",
+      "nodeCount": 162,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Warbringer",
+          "description": "For every 300 Fury you spend, gain 10% of your Maximum Life (40) as Fortify."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Fire Resilience",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Hungering Fury",
+          "attributes": [
+            "+8 Maximum Fury",
+            "+2 Fury On Kill"
+          ]
+        },
+        {
+          "name": "Conditioned",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+6.0% Healing Received"
+          ]
+        },
+        {
+          "name": "Core Reserve",
+          "attributes": [
+            "+8 Maximum Fury",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Raw Power",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Brute Force",
+          "attributes": [
+            "+20.0% Damage while Fortified",
+            "+10 Strength"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "id": 1194330,
+      "name": "Board_1194330",
+      "nodeCount": 174,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Weapons Master",
+          "description": "Swapping weapons grants you 12 Fury. You deal 45% increased damage to Injured and Healthy enemies.  "
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Raw Power",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Iron Strength",
+          "attributes": [
+            "+4 Maximum Fury",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Hunter Killer",
+          "attributes": [
+            "+2 Fury On Kill",
+            "+20.0% Movement Speed for 4 Seconds After Killing an Elite"
+          ]
+        },
+        {
+          "name": "Nimble",
+          "attributes": [
+            "+2.5% Attack Speed",
+            "+20.0% Damage"
+          ]
+        },
+        {
+          "name": "Denial",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Deflection",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+2.0% Total Armor"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "id": 1985448,
+      "name": "Board_1985448",
+      "nodeCount": 171,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Force of Nature",
+          "description": "Your Earthquakes deals 45%[x] increased damage and have a 75% chance to spawn a Dust Devil every second that deals 270 damage."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Squall",
+          "attributes": [
+            "+30.0% <span style=\"color: #E3E0D9\">Dust Devil</span> Damage",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Raw Might",
+          "attributes": [
+            "+24.0% Damage to Close Enemies",
+            "+10 Strength"
+          ]
+        },
+        {
+          "name": "Alloyed",
+          "attributes": [
+            "+10.0% <span style=\"color: #E3E0D9\">Earthquake</span> Duration",
+            "+10.0% <span style=\"color: #E3E0D9\">Dust Devil</span> Size"
+          ]
+        },
+        {
+          "name": "Denial",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Tenacity",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Catalyst",
+          "attributes": [
+            "+70.0% <span style=\"color: #E3E0D9\">Earthquake</span> Damage",
+            "+20.0% Physical Damage"
+          ]
+        }
+      ]
+    }
+  ]
+}
