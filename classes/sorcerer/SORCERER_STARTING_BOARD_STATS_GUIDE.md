@@ -91,16 +91,6 @@
 - Come back to grab rare nodes with excess points
 - Focus paragon points on legendary boards going forward
 
-### Path 2: Left Branch (7 nodes)
-**Base Stats:** +40 Intelligence (8 nodes × 5 each)
-**Best For:** Early damage with Elemental Balance/Studied
-
-### Path 3: Right Branch (7 nodes)
-**Base Stats:** +40 Intelligence (8 nodes × 5 each)
-**Best For:** Balanced builds
-
----
-
 ## 🎮 Build-Specific Strategies
 
 ### Pyromancy Build (Fire)
