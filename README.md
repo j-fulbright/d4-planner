@@ -24,11 +24,11 @@ Comprehensive paragon board data extraction and analysis for all Diablo 4 classe
 ## 📊 Project Overview
 
 This project contains:
-- **Complete paragon board data** for all 7 classes (69 legendary boards total)
-- **Starting board stat guides** for all 7 classes
-- **Path analysis** and optimal routing strategies
-- **Node-by-node breakdowns** with stat accumulation
-- **Build-specific recommendations** for each class
+- **Complete paragon board data** for all 7 classes (69 boards total)
+- **Node value analysis** for all boards (theorycraft data)
+- **Starting board guides** for all 7 classes
+- **Path analysis** with gate-to-gate routing
+- **Raw JSON data** for developers and analysis tools
 
 ---
 
@@ -54,10 +54,10 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 
 ### Starting Board Structure (Universal)
 - **Total Nodes:** 75 (same for all classes)
-- **Rare Nodes:** 4 (positions identical, stats vary by class)
-- **Paths:** 3 optimal routes (Center: 14 nodes, Left: 7 nodes, Right: 7 nodes)
-- **Max Primary Stat:** +395 per class
+- **Rare Nodes:** 4 (accessible in order: 2 near start, 2 further up)
+- **Gate Path:** 14 nodes minimum from start to gate
 - **Starting Position:** (10, 0) - Bottom center of board
+- **Node Stats:** Mixed primary stats (Str/Dex/Will/Int), not just class primary stat
 
 ---
 
@@ -76,6 +76,7 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 - [`barbarian-paragon-boards.json`](classes/barbarian/barbarian-paragon-boards.json) - Full data with all node details
 - [`barbarian-boards-summary.json`](classes/barbarian/barbarian-boards-summary.json) - Simplified summary
 - [`barbarian-board-paths.json`](classes/barbarian/barbarian-board-paths.json) - Path analysis with distances
+- [`BARBARIAN_NODE_VALUES.md`](classes/barbarian/BARBARIAN_NODE_VALUES.md) - Theorycraft value analysis ⭐
 - [`BARBARIAN_PARAGON_BOARDS.md`](classes/barbarian/BARBARIAN_PARAGON_BOARDS.md) - Complete board documentation
 - [`BARBARIAN_STARTING_BOARD_STATS_GUIDE.md`](classes/barbarian/BARBARIAN_STARTING_BOARD_STATS_GUIDE.md) - Starting board guide
 
@@ -252,11 +253,13 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 - **Gate Node ID:** 994337 (universal identifier)
 
 ### Node Types
-- **Common Nodes:** +5 to primary stat
-- **Magic Nodes:** Enhanced bonuses
-- **Rare Nodes:** Named nodes with powerful bonuses
-- **Legendary Nodes:** Unique build-defining mechanics
+- **Normal Nodes:** +5 to one stat (Str/Dex/Will/Int - mixed across board)
+- **Magic Nodes:** Percentage bonuses (+10% Dmg, +2% Life, etc.)
+- **Rare Nodes:** Named nodes with powerful bonuses + threshold effects
+- **Legendary Nodes:** Unique build-defining mechanics (1 per board)
 - **Glyph Sockets:** Enhance nearby nodes in radius
+
+See [`NODE_TYPES_REFERENCE.md`](NODE_TYPES_REFERENCE.md) for detailed node type information.
 
 ---
 
@@ -290,14 +293,14 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 
 ---
 
-## 💡 Pro Tips
+## 💡 Key Points
 
-1. **Rare nodes are 20-40x more valuable** than common nodes per point
-2. **Respec is FREE** - experiment without penalty
-3. **Center rush is optimal** for 99% of builds initially
-4. **Elite damage rare (+30%)** is universally valuable
-5. **Common nodes give +5 primary stat** consistently
-6. **Glyph sockets** enhance nodes within their radius
+1. **Nodes must be adjacent** - Can only allocate nodes touching already-allocated nodes
+2. **Rare nodes are 20-60x more valuable** than normal nodes
+3. **All boards give mixed stats** - Nodes give Str/Dex/Will/Int, not just class primary stat
+4. **Respec is FREE** - Experiment without penalty
+5. **Elite damage rares (+30%)** are highest value nodes
+6. **Magic nodes (blue)** give percentage bonuses - very valuable
 7. **4 gates per board** allow flexible rotation and attachment
 8. **Starting boards are identical** structurally across all classes
 
@@ -379,4 +382,5 @@ Game data © Blizzard Entertainment.
 
 **Generated:** December 2024
 **Classes Covered:** All 7 (Barbarian, Paladin, Sorcerer, Necromancer, Rogue, Druid, Spiritborn)
-**Total Boards Documented:** 22 (2 complete legendary sets + 7 starting boards)
+**Total Boards Documented:** 69 boards (all legendary boards for all classes)
+**Node Value Analysis:** Available for all 69 boards
