@@ -91,25 +91,6 @@ Based on actual in-game tooltips and screenshots.
 
 ---
 
-## 🎯 Node Priority for Builds
-
-### **For 36-Point Build:**
-
-**Must Have:**
-1. Gate node (unlocks legendary boards)
-2. 2 Rare nodes - **Brawn** and **Tenacity** (accessible from start)
-
-**Nice to Have:**
-3. Magic nodes (blue) - grab if on your path
-4. Normal nodes - only to connect paths
-
-**Skip (for 36pts):**
-- Raw Power rare (too far/past gate)
-- Iron Strength rare (too far/past gate)
-- Normal nodes far from your path
-
----
-
 ## 🔍 Rare Node Bonus Thresholds (Universal Mechanic)
 
 **How thresholds work:**
