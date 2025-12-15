@@ -110,22 +110,31 @@ I cannot provide exact "node 1, node 2, node 3" directions because:
 ```
 36-POINT BUILD RESULTS
 ═══════════════════════════════════════════════════════
-Primary Stats (Mixed):
-  • Strength:      ~85-100
-  • Dexterity:     ~30-40
-  • Willpower:     ~30-40
-  • Intelligence:  ~5-10
-  • TOTAL:         ~160-180 stat points
+Normal Nodes (~32-34):
+  • Mixed +5 stats: ~85 Str, ~35 Dex, ~35 Will, ~5 Int
 
-Rare Node Bonuses:
-  • Damage:        +20%
-  • Maximum Life:  +8%
-  • Total Armor:   +2%
+Magic Nodes (if any, ~0-2):
+  • +10% Damage OR +2% Life OR +1.5% Armor
+
+Rare Nodes (2):
+  • Brawn: +20% Damage, +4% Life
+  • Tenacity: +4% Life, +2% Armor
+
+TOTAL BONUSES:
+  • Damage:        +20% (Brawn) [+30% with magic nodes]
+  • Maximum Life:  +8% (Brawn + Tenacity) [+10% with magic]
+  • Total Armor:   +2% (Tenacity) [+3.5% with magic]
+  • Primary Stats: ~160 total (mixed Str/Dex/Will/Int)
+
+RARE BONUSES (NOT UNLOCKED with 36pts):
+  • Brawn bonus: Needs 630 Strength ❌
+  • Tenacity bonus: Needs 630 Str + 190 Will ❌
+  (These unlock with 100+ points across multiple boards)
 
 Result:
   • Can attach legendary boards ✅
   • Balanced offense + defense ✅
-  • Efficient use of 36 points ✅
+  • BASE rare bonuses (not threshold bonuses) ✅
 ═══════════════════════════════════════════════════════
 ```
 
