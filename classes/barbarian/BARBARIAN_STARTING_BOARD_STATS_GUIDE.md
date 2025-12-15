@@ -98,50 +98,26 @@
 ### Strategy 1: Speed Runner (Recommended)
 **Objective:** Unlock legendary boards immediately
 
-1. Rush center path (14 nodes) → +75 Primary Stat
-2. Attach first legendary board at top gate
+1. Rush center path (14 nodes) → +75 Strength
+2. Attach first legendary board at top gate (Hemorrhage or Blood Rage)
 3. Never look back - put points into legendary boards
 4. Only return if you have excess points later
 
 **Paragon Points:** 14 points
-**Build Phase:** Early game, first legendary board unlock
+**Best For:** All builds - getting to legendary boards is always priority #1
 
 ---
 
-### Strategy 2: Power Spike
-**Objective:** Strong stats before reaching gate
+### Strategy 2: Power Spike (Optional)
+**Objective:** Grab key rare nodes on the way to gate
 
-1. Take center path (7 nodes) → +35 Primary Stat  
-2. Detour to grab 1-2 high-value rare nodes (damage/elite damage)
-3. Return to center and complete path to gate
-4. Attach legendary board
-
-**Paragon Points:** 18-22 points
-**Build Phase:** Mid-game when you have points to spare
-
----
-### Strategy 1: Speed Runner (Most Common)
-**Objective:** Unlock legendary boards ASAP
-
-1. Take **Center Path** (14 nodes) → +75 Strength
-2. Attach first legendary board at top gate
-3. Come back later for rare nodes if needed
-
-**Paragon Points:** 14 points
-**Time to Legendary:** Fastest
-
----
-
-### Strategy 2: Balanced Power
-**Objective:** Strong early stats while progressing
-
-1. Take **Center Path** halfway (7 nodes) → +35 Strength
-2. Branch to **Raw Power** rare node → +20% Damage, +10 Strength
-3. Branch to **Iron Strength** rare node → +30% Damage to Elites, +10 Strength
+1. Take center path (7 nodes) → +35 Strength
+2. Detour to **Raw Power** rare node → +20% Damage, +10 Strength
+3. Detour to **Iron Strength** rare node → +30% Damage to Elites, +10 Strength
 4. Return to center and complete path to gate
 
 **Paragon Points:** ~20 points
-**Early Power Spike:** +75% Damage vs Elites, +55 Strength
+**Best For:** Players with 20+ points who want early damage boost
 
 ---
 
