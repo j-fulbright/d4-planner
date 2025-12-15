@@ -361,10 +361,12 @@ See [`NODE_TYPES_REFERENCE.md`](NODE_TYPES_REFERENCE.md) for detailed node type 
 
 ## 🌐 Data Source
 
-**Primary Source:** [Wowhead Diablo 4 Paragon Calculator](https://www.wowhead.com/diablo-4/paragon-calc/)
-**API Endpoint:** `https://nether.wowhead.com/diablo-4/data/paragon-calc`
-**Game Version:** Diablo 4 (Vessel of Hatred expansion)
-**Last Updated:** December 2024
+| | |
+|---|---|
+| **Primary Source** | [Wowhead Diablo 4 Paragon Calculator](https://www.wowhead.com/diablo-4/paragon-calc/) |
+| **API Endpoint** | `https://nether.wowhead.com/diablo-4/data/paragon-calc` |
+| **Game Version** | Diablo 4 (Vessel of Hatred expansion) |
+| **Last Updated** | December 2025 |
 
 ---
 
