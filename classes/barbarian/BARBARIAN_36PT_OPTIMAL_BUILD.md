@@ -12,12 +12,12 @@ Reach the gate to attach legendary boards while maximizing damage with rare node
 
 | Category | Nodes | Stats Gained |
 |----------|-------|--------------|
-| **Center Path to Gate** | 14 | +70 Strength |
-| **Path to Raw Power** | 5 | +25 Strength |
+| **Center Path to Gate** | 15 | +75 Strength |
 | **Raw Power (Rare)** | 1 | +20% Damage, +10 Strength |
-| **Path to Iron Strength** | 5 | +25 Strength |
 | **Iron Strength (Rare)** | 1 | +30% Elite Damage, +10 Strength |
-| **Fill efficient nodes** | 10 | +50 Strength |
+| **Nodes connecting to rares** | 8 | +40 Strength |
+| **Glyph socket area nodes** | 6 | +30 Strength |
+| **Additional value nodes** | 5 | +25 Strength |
 
 ---
 
@@ -42,7 +42,8 @@ Reach the gate to attach legendary boards while maximizing damage with rare node
 ## 📈 Total Statistics
 
 ### **Primary Stats:**
-- **Strength:** +190
+- **Strength:** +200
+  - 36 nodes total: 34 common + 2 rare
   - 34 common nodes × 5 = +170 Strength
   - 2 rare nodes × 10 = +20 Strength
 
@@ -61,33 +62,41 @@ Reach the gate to attach legendary boards while maximizing damage with rare node
 ```
                 (TOP - Y=20)
 
-..........o..........    ← Gate area (reached!)
-.........ooo.........
-.........o.o.........
-........oo.oo........
-.......ooo.ooo.......
-......oooo[R]ooo......   ← Additional value nodes
-.....o[✓]oo[✓]oo.....   ← ✓ = RARE NODES TAKEN
-......ooooooooo......    ← Raw Power + Iron Strength
-.......ooooooo.......
-........XX.XX........    ← X = Path nodes allocated
-........XX.XX........
-.......XXX.XXX.......
-........X...X........
-........XXXXX........
-.........XXX.........
-..........X..........    ← X = Allocated nodes
-            ↓
-         [START]
+.....................  ← Top
+.....................
+.....................
+.....................
+.....................
+.....................
+.........oGo.........  ← GATE (attach legendary here!) ✅
+........oXooo........
+........X...o........
+.......Xoo.ooo.......
+........Xo.oo........
+........XoXoo........  ← Additional nodes
+.......XooXooo.......  ← Glyph socket area
+......XooXXXooo......
+.....XoooXXXoooo.....
+......XoXX.XXXo......
+.......XX1X2Xo.......  ← 1=Raw Power, 2=Iron Strength ✅
+........XoXXX........
+.........XXo.........
+.........Xoo.........
+..........S..........  ← START ✅
 
             (BOTTOM - Y=0)
 ```
 
 **Legend:**
-- `X` = Allocated nodes (center path + connections)
-- `✓` = Rare nodes taken (Raw Power, Iron Strength)
-- `o` = Available but not allocated
+- `S` = Starting Position (allocated)
+- `G` = Gate (allocated) - **Legendary board attachment point**
+- `X` = Allocated common nodes (~34 nodes)
+- `1` = **Raw Power** rare node (allocated)
+- `2` = **Iron Strength** rare node (allocated)
+- `o` = Available but NOT allocated
 - `.` = Empty space
+
+**Total Allocated:** 36 nodes (continuous path from S to G)
 
 ---
 
@@ -182,14 +191,15 @@ Stats: +50 Strength
 ```
 36-POINT OPTIMAL BUILD (RECOMMENDED)
 ═══════════════════════════════════════════════════════
-Strength:              +190
+Strength:              +200
 Damage:                +20%
 Damage to Elites:      +30%
-Gate Access:           ✅ YES
-Best Rare Nodes:       ✅ 2/4 taken (the damage ones)
+Gate Access:           ✅ YES (continuous path S→G)
+Best Rare Nodes:       ✅ 2/4 taken (Raw Power + Iron Strength)
 ═══════════════════════════════════════════════════════
 Effective vs Elites:   1.50x damage multiplier
 Points Remaining:      ~39+ for legendary boards
+Nodes Allocated:       36/75 (48% of starting board)
 ═══════════════════════════════════════════════════════
 ```
 
