@@ -24,7 +24,7 @@ Comprehensive paragon board data extraction and analysis for all Diablo 4 classe
 ## 📊 Project Overview
 
 This project contains:
-- **Complete paragon board data** for Barbarian and Paladin (all 10 boards each)
+- **Complete paragon board data** for all 7 classes (69 legendary boards total)
 - **Starting board stat guides** for all 7 classes
 - **Path analysis** and optimal routing strategies
 - **Node-by-node breakdowns** with stat accumulation
@@ -76,8 +76,8 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 - [`barbarian-paragon-boards.json`](classes/barbarian/barbarian-paragon-boards.json) - Full data with all node details
 - [`barbarian-boards-summary.json`](classes/barbarian/barbarian-boards-summary.json) - Simplified summary
 - [`barbarian-board-paths.json`](classes/barbarian/barbarian-board-paths.json) - Path analysis with distances
-- [`BARBARIAN_PARAGON_BOARDS.md`](classes/barbarian/BARBARIAN_PARAGON_BOARDS.md) - Complete documentation
-- [`BARBARIAN_STARTING_BOARD_PATHS.md`](classes/barbarian/BARBARIAN_STARTING_BOARD_PATHS.md) - Visual path guides
+- [`BARBARIAN_PARAGON_BOARDS.md`](classes/barbarian/BARBARIAN_PARAGON_BOARDS.md) - Complete board documentation
+- [`BARBARIAN_STARTING_BOARD_STATS_GUIDE.md`](classes/barbarian/BARBARIAN_STARTING_BOARD_STATS_GUIDE.md) - Starting board guide
 
 **10 Boards:**
 1. Starting Board (75 nodes)
@@ -96,8 +96,8 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 - [`paladin-paragon-boards.json`](classes/paladin/paladin-paragon-boards.json) - Full data with all node details
 - [`paladin-boards-summary.json`](classes/paladin/paladin-boards-summary.json) - Simplified summary
 - [`paladin-board-paths.json`](classes/paladin/paladin-board-paths.json) - Path analysis with distances
-- [`PALADIN_PARAGON_BOARDS.md`](classes/paladin/PALADIN_PARAGON_BOARDS.md) - Complete documentation
-- [`PALADIN_STARTING_BOARD_PATHS.md`](classes/paladin/PALADIN_STARTING_BOARD_PATHS.md) - Visual path guides
+- [`PALADIN_PARAGON_BOARDS.md`](classes/paladin/PALADIN_PARAGON_BOARDS.md) - Complete board documentation
+- [`PALADIN_STARTING_BOARD_STATS_GUIDE.md`](classes/paladin/PALADIN_STARTING_BOARD_STATS_GUIDE.md) - Starting board guide
 
 **10 Boards:**
 1. Starting Board (75 nodes)
@@ -115,7 +115,8 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 **Files:**
 - [`sorcerer-paragon-boards.json`](classes/sorcerer/sorcerer-paragon-boards.json) - Full data with all node details
 - [`sorcerer-boards-summary.json`](classes/sorcerer/sorcerer-boards-summary.json) - Simplified summary
-- [`SORCERER_PARAGON_BOARDS.md`](classes/sorcerer/SORCERER_PARAGON_BOARDS.md) - Complete documentation
+- [`SORCERER_PARAGON_BOARDS.md`](classes/sorcerer/SORCERER_PARAGON_BOARDS.md) - Complete board documentation
+- [`SORCERER_STARTING_BOARD_STATS_GUIDE.md`](classes/sorcerer/SORCERER_STARTING_BOARD_STATS_GUIDE.md) - Starting board guide
 
 **10 Boards:**
 1. Starting Board (75 nodes)
@@ -133,7 +134,8 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 **Files:**
 - [`necromancer-paragon-boards.json`](classes/necromancer/necromancer-paragon-boards.json) - Full data with all node details
 - [`necromancer-boards-summary.json`](classes/necromancer/necromancer-boards-summary.json) - Simplified summary
-- [`NECROMANCER_PARAGON_BOARDS.md`](classes/necromancer/NECROMANCER_PARAGON_BOARDS.md) - Complete documentation
+- [`NECROMANCER_PARAGON_BOARDS.md`](classes/necromancer/NECROMANCER_PARAGON_BOARDS.md) - Complete board documentation
+- [`NECROMANCER_STARTING_BOARD_STATS_GUIDE.md`](classes/necromancer/NECROMANCER_STARTING_BOARD_STATS_GUIDE.md) - Starting board guide
 
 **10 Boards:**
 1. Starting Board (75 nodes)
@@ -151,7 +153,8 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 **Files:**
 - [`rogue-paragon-boards.json`](classes/rogue/rogue-paragon-boards.json) - Full data with all node details
 - [`rogue-boards-summary.json`](classes/rogue/rogue-boards-summary.json) - Simplified summary
-- [`ROGUE_PARAGON_BOARDS.md`](classes/rogue/ROGUE_PARAGON_BOARDS.md) - Complete documentation
+- [`ROGUE_PARAGON_BOARDS.md`](classes/rogue/ROGUE_PARAGON_BOARDS.md) - Complete board documentation
+- [`ROGUE_STARTING_BOARD_STATS_GUIDE.md`](classes/rogue/ROGUE_STARTING_BOARD_STATS_GUIDE.md) - Starting board guide
 
 **10 Boards:**
 1. Starting Board (75 nodes)
@@ -169,7 +172,8 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 **Files:**
 - [`druid-paragon-boards.json`](classes/druid/druid-paragon-boards.json) - Full data with all node details
 - [`druid-boards-summary.json`](classes/druid/druid-boards-summary.json) - Simplified summary
-- [`DRUID_PARAGON_BOARDS.md`](classes/druid/DRUID_PARAGON_BOARDS.md) - Complete documentation
+- [`DRUID_PARAGON_BOARDS.md`](classes/druid/DRUID_PARAGON_BOARDS.md) - Complete board documentation
+- [`DRUID_STARTING_BOARD_STATS_GUIDE.md`](classes/druid/DRUID_STARTING_BOARD_STATS_GUIDE.md) - Starting board guide
 
 **10 Boards:**
 1. Starting Board (75 nodes)
@@ -187,7 +191,8 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 **Files:**
 - [`spiritborn-paragon-boards.json`](classes/spiritborn/spiritborn-paragon-boards.json) - Full data with all node details
 - [`spiritborn-boards-summary.json`](classes/spiritborn/spiritborn-boards-summary.json) - Simplified summary
-- [`SPIRITBORN_PARAGON_BOARDS.md`](classes/spiritborn/SPIRITBORN_PARAGON_BOARDS.md) - Complete documentation
+- [`SPIRITBORN_PARAGON_BOARDS.md`](classes/spiritborn/SPIRITBORN_PARAGON_BOARDS.md) - Complete board documentation
+- [`SPIRITBORN_STARTING_BOARD_STATS_GUIDE.md`](classes/spiritborn/SPIRITBORN_STARTING_BOARD_STATS_GUIDE.md) - Starting board guide
 
 **9 Boards:**
 1. Starting Board (75 nodes)
