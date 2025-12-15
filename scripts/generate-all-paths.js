@@ -206,7 +206,7 @@ function analyzeBoardPaths(className, boardData) {
 }
 
 // Process all classes
-const classNames = ['sorcerer', 'necromancer', 'rogue', 'druid', 'spiritborn'];
+const classNames = ['barbarian', 'paladin', 'sorcerer', 'necromancer', 'rogue', 'druid', 'spiritborn'];
 
 console.log('Generating board path analysis for all classes...\n');
 
