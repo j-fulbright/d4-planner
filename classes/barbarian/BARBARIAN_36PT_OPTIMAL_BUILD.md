@@ -12,12 +12,14 @@ Reach the gate to attach legendary boards while maximizing damage with rare node
 
 | Category | Nodes | Stats Gained |
 |----------|-------|--------------|
-| **Center Path to Gate** | 15 | +75 Strength |
-| **Raw Power (Rare)** | 1 | +20% Damage, +10 Strength |
-| **Iron Strength (Rare)** | 1 | +30% Elite Damage, +10 Strength |
-| **Nodes connecting to rares** | 8 | +40 Strength |
-| **Glyph socket area nodes** | 6 | +30 Strength |
-| **Additional value nodes** | 5 | +25 Strength |
+| **Center Path to Gate** | 15 | Mixed stats (Str/Dex/Will/Int) |
+| **Brawn (Rare)** | 1 | +20% Damage, 4% Life |
+| **Tenacity (Rare)** | 1 | 4% Life, +2% Armor |
+| **Nodes connecting to rares** | 8 | Mixed stats |
+| **Glyph socket area nodes** | 6 | Mixed stats |
+| **Additional efficient nodes** | 5 | Mixed stats |
+
+**Note:** Nodes give different primary stats - not just Strength! The starting board has a mix of Strength, Dexterity, Willpower, and Intelligence nodes.
 
 ---
 
@@ -41,19 +43,23 @@ Reach the gate to attach legendary boards while maximizing damage with rare node
 
 ## 📈 Total Statistics
 
-### **Primary Stats:**
-- **Strength:** +200
-  - 36 nodes total: 34 common + 2 rare
-  - 34 common nodes × 5 = +170 Strength
-  - 2 rare nodes × 10 = +20 Strength
+### **All Primary Stats:**
+- **Strength:** ~+85 (from mixed common nodes on path)
+- **Dexterity:** ~+35 (some nodes give Dex instead of Str)
+- **Willpower:** ~+35 (some nodes give Will instead of Str)
+- **Intelligence:** ~+5 (occasional Int nodes)
 
-### **Damage Bonuses:**
-- **Base Damage:** +20% (from Raw Power)
-- **Elite Damage:** +30% (from Iron Strength)
+**Important:** Starting board nodes give MIXED stats, not just your primary stat!
 
-### **Effective Damage Multiplier:**
-- **vs Regular Enemies:** 1.20x damage
-- **vs Elite Enemies:** 1.50x damage (!!!)
+### **Damage & Defense Bonuses:**
+- **Damage:** +20% (from Brawn rare)
+- **Maximum Life:** +8% (Brawn 4% + Tenacity 4%)
+- **Total Armor:** +2% (from Tenacity rare)
+
+### **Effective Power:**
+- **Damage Multiplier:** 1.20x vs all enemies
+- **Survivability:** +8% Life + 2% Armor = tankier Barbarian
+- **Balanced:** Good mix of offense and defense
 
 ---
 
@@ -78,7 +84,7 @@ Reach the gate to attach legendary boards while maximizing damage with rare node
 ......XooXXXooo......
 .....XoooXXXoooo.....
 ......XoXX.XXXo......
-.......XX1X2Xo.......  ← 1=Raw Power, 2=Iron Strength ✅
+.......XX1X2Xo.......  ← 1=Brawn, 2=Tenacity ✅
 ........XoXXX........
 .........XXo.........
 .........Xoo.........
@@ -91,8 +97,8 @@ Reach the gate to attach legendary boards while maximizing damage with rare node
 - `S` = Starting Position (allocated)
 - `G` = Gate (allocated) - **Legendary board attachment point**
 - `X` = Allocated common nodes (~34 nodes)
-- `1` = **Raw Power** rare node (allocated)
-- `2` = **Iron Strength** rare node (allocated)
+- `1` = **Brawn** rare node (allocated)
+- `2` = **Tenacity** rare node (allocated)
 - `o` = Available but NOT allocated
 - `.` = Empty space
 
@@ -189,17 +195,19 @@ Stats: +50 Strength
 ## 📋 Quick Stats Summary
 
 ```
-36-POINT OPTIMAL BUILD (RECOMMENDED)
+36-POINT OPTIMAL BUILD (BALANCED)
 ═══════════════════════════════════════════════════════
-Strength:              +200
-Damage:                +20%
-Damage to Elites:      +30%
+All Primary Stats:     +160 total (~85 Str, ~35 Dex, ~35 Will, ~5 Int)
+Damage:                +20% (Brawn)
+Maximum Life:          +8% (Brawn + Tenacity)
+Total Armor:           +2% (Tenacity)
+───────────────────────────────────────────────────────
 Gate Access:           ✅ YES (continuous path S→G)
-Best Rare Nodes:       ✅ 2/4 taken (Raw Power + Iron Strength)
-═══════════════════════════════════════════════════════
-Effective vs Elites:   1.50x damage multiplier
+Accessible Rares:      ✅ Brawn + Tenacity (first 2 encountered)
 Points Remaining:      ~39+ for legendary boards
 Nodes Allocated:       36/75 (48% of starting board)
+───────────────────────────────────────────────────────
+Build Type:            Balanced (damage + survivability)
 ═══════════════════════════════════════════════════════
 ```
 

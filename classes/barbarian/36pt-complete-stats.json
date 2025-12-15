@@ -1,0 +1,20 @@
+{
+  "totalPoints": 36,
+  "stats": {
+    "strength": 96,
+    "dexterity": 36,
+    "willpower": 36,
+    "intelligence": 6,
+    "damagePercent": 20,
+    "eliteDamagePercent": 30
+  },
+  "nodeDistribution": {
+    "mainPath": 15,
+    "additionalNodes": 21,
+    "rareNodes": 2
+  },
+  "bonusesUnlocked": {
+    "rawPowerBonus": false,
+    "ironStrengthBonus": false
+  }
+}
