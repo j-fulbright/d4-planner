@@ -386,9 +386,9 @@ Game data © Blizzard Entertainment.
 
 ---
 
----
-
-**Generated:** December 2025
-**Classes Covered:** All 7 (Barbarian, Paladin, Sorcerer, Necromancer, Rogue, Druid, Spiritborn)
-**Total Boards Documented:** 69 boards (all legendary boards for all classes)
-**Node Value Analysis:** Available for all 69 boards
+| | |
+|---|---|
+| **Generated** | December 2025 |
+| **Classes Covered** | All 7 (Barbarian, Paladin, Sorcerer, Necromancer, Rogue, Druid, Spiritborn) |
+| **Total Boards Documented** | 69 boards (all legendary boards for all classes) |
+| **Node Value Analysis** | Available for all 69 boards |
