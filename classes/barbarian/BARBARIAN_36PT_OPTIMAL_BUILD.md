@@ -108,10 +108,14 @@ Reach the gate to attach legendary boards while maximizing damage with rare node
 
 ## 🛤️ Step-by-Step Allocation Guide
 
-### Phase 1: Rush to Gate (14 nodes)
+**CRITICAL RULE:** Nodes must be ADJACENT (touching) to allocate them. You cannot skip nodes or pick random ones. Build a connected path!
+
+### Phase 1: Rush to Gate (15 nodes)
 ```
-Allocate center path from (10,0) → (10,14)
-Stats: +70 Strength
+Allocate center path from START → GATE
+Each node must touch the previously allocated node
+Path sequence: (10,0) → (9,1) → (9,2) → ... → (10,14)
+Stats: ~75 mixed stats
 ```
 
 ### Phase 2: Grab Raw Power (6 nodes)

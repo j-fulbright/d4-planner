@@ -4,21 +4,31 @@
 
 This guide helps you allocate your 36 paragon points while playing.
 
-**Important:** The coordinate data from Wowhead doesn't visually match the in-game node layout. Use this guide's visual cues (node colors and names) instead of coordinates.
+**Important Rules:**
+1. **Nodes must connect:** You can only allocate nodes that touch (are adjacent to) already-allocated nodes
+2. **Build a path:** Start from the bottom and build upward, connecting each node to the previous
+3. **No random selection:** You cannot skip nodes or allocate disconnected nodes
+4. **Coordinates vs Visual:** Wowhead coordinate data doesn't visually match in-game layout - use visual cues instead
 
 ---
 
 ## ✅ Step 1: Path to Gate (~15 nodes)
 
-**What to do:** Allocate nodes from the STARTING node upward toward the GATE
+**What to do:** Build a connected path from STARTING node upward to GATE
+
+**Critical:** You MUST allocate nodes in sequence - each node must touch the previous node!
 
 **In-game:**
-- Starting node is at the BOTTOM (has special icon)
+- Start at the BOTTOM (starting node - has special icon)
+- Allocate the node directly ABOVE it (must be touching)
+- Continue allocating nodes going UPWARD toward the gate
+- Each node must be adjacent (touching) the last one you allocated
+- Follow the CENTER path - it's the most direct route
 - Gate is at the TOP of the starting board
-- Follow the CENTER path going upward
-- You'll see a chain of brown nodes forming a path
 
-**Note:** Coordinates below are from the data file and may not match in-game visual positions exactly. Use them as reference only.
+**Rule:** If a node isn't touching your allocated nodes, you CAN'T allocate it yet.
+
+**Note:** Coordinates below show the sequence but may not match in-game visual positions exactly.
 
  1. Position (10, 0) - +5 Willpower ← START
  2. Position (9, 1) - +5 Willpower

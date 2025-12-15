@@ -12,6 +12,27 @@ This is a **Diablo 4 Paragon Board Data Collection** project that extracts, anal
 
 **Key Insight:** This is a data extraction and documentation project, not a web application. The output is JSON data files and markdown documentation for players and theorycrafters.
 
+## Critical Paragon Board Mechanic
+
+**NODES MUST BE CONNECTED:** You cannot allocate random nodes on a paragon board. Nodes must be **adjacent** (touching) to already-allocated nodes, forming a continuous path.
+
+**How it works:**
+1. You start at the starting node (or gate if entering from another board)
+2. You can ONLY allocate nodes that touch an already-allocated node
+3. "Adjacent" = horizontally, vertically, or diagonally touching (within 1 step)
+4. You build a connected tree/path outward from your entry point
+
+**Example from starting board:**
+- Start at (10, 0)
+- Can allocate (9, 1) because it touches (10, 0)
+- Can allocate (9, 2) because it touches (9, 1)
+- CANNOT allocate (15, 15) randomly - no connection to your allocated nodes
+
+**Implication for path analysis:**
+- The BFS paths calculated are not just "shortest route" but "required sequence"
+- You must allocate nodes in order along the path
+- You cannot skip nodes to reach a rare node - must build a connected path to it
+
 ## Data Architecture
 
 ### Core Data Flow
