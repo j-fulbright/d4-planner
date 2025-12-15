@@ -97,6 +97,7 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 - [`paladin-paragon-boards.json`](classes/paladin/paladin-paragon-boards.json) - Full data with all node details
 - [`paladin-boards-summary.json`](classes/paladin/paladin-boards-summary.json) - Simplified summary
 - [`paladin-board-paths.json`](classes/paladin/paladin-board-paths.json) - Path analysis with distances
+- [`PALADIN_NODE_VALUES.md`](classes/paladin/PALADIN_NODE_VALUES.md) - Theorycraft value analysis ⭐
 - [`PALADIN_PARAGON_BOARDS.md`](classes/paladin/PALADIN_PARAGON_BOARDS.md) - Complete board documentation
 - [`PALADIN_STARTING_BOARD_STATS_GUIDE.md`](classes/paladin/PALADIN_STARTING_BOARD_STATS_GUIDE.md) - Starting board guide
 
@@ -117,6 +118,7 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 - [`sorcerer-paragon-boards.json`](classes/sorcerer/sorcerer-paragon-boards.json) - Full data with all node details
 - [`sorcerer-boards-summary.json`](classes/sorcerer/sorcerer-boards-summary.json) - Simplified summary
 - [`sorcerer-board-paths.json`](classes/sorcerer/sorcerer-board-paths.json) - Path analysis with distances
+- [`SORCERER_NODE_VALUES.md`](classes/sorcerer/SORCERER_NODE_VALUES.md) - Theorycraft value analysis ⭐
 - [`SORCERER_PARAGON_BOARDS.md`](classes/sorcerer/SORCERER_PARAGON_BOARDS.md) - Complete board documentation
 - [`SORCERER_STARTING_BOARD_STATS_GUIDE.md`](classes/sorcerer/SORCERER_STARTING_BOARD_STATS_GUIDE.md) - Starting board guide
 
@@ -137,6 +139,7 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 - [`necromancer-paragon-boards.json`](classes/necromancer/necromancer-paragon-boards.json) - Full data with all node details
 - [`necromancer-boards-summary.json`](classes/necromancer/necromancer-boards-summary.json) - Simplified summary
 - [`necromancer-board-paths.json`](classes/necromancer/necromancer-board-paths.json) - Path analysis with distances
+- [`NECROMANCER_NODE_VALUES.md`](classes/necromancer/NECROMANCER_NODE_VALUES.md) - Theorycraft value analysis ⭐
 - [`NECROMANCER_PARAGON_BOARDS.md`](classes/necromancer/NECROMANCER_PARAGON_BOARDS.md) - Complete board documentation
 - [`NECROMANCER_STARTING_BOARD_STATS_GUIDE.md`](classes/necromancer/NECROMANCER_STARTING_BOARD_STATS_GUIDE.md) - Starting board guide
 
@@ -157,6 +160,7 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 - [`rogue-paragon-boards.json`](classes/rogue/rogue-paragon-boards.json) - Full data with all node details
 - [`rogue-boards-summary.json`](classes/rogue/rogue-boards-summary.json) - Simplified summary
 - [`rogue-board-paths.json`](classes/rogue/rogue-board-paths.json) - Path analysis with distances
+- [`ROGUE_NODE_VALUES.md`](classes/rogue/ROGUE_NODE_VALUES.md) - Theorycraft value analysis ⭐
 - [`ROGUE_PARAGON_BOARDS.md`](classes/rogue/ROGUE_PARAGON_BOARDS.md) - Complete board documentation
 - [`ROGUE_STARTING_BOARD_STATS_GUIDE.md`](classes/rogue/ROGUE_STARTING_BOARD_STATS_GUIDE.md) - Starting board guide
 
@@ -177,6 +181,7 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 - [`druid-paragon-boards.json`](classes/druid/druid-paragon-boards.json) - Full data with all node details
 - [`druid-boards-summary.json`](classes/druid/druid-boards-summary.json) - Simplified summary
 - [`druid-board-paths.json`](classes/druid/druid-board-paths.json) - Path analysis with distances
+- [`DRUID_NODE_VALUES.md`](classes/druid/DRUID_NODE_VALUES.md) - Theorycraft value analysis ⭐
 - [`DRUID_PARAGON_BOARDS.md`](classes/druid/DRUID_PARAGON_BOARDS.md) - Complete board documentation
 - [`DRUID_STARTING_BOARD_STATS_GUIDE.md`](classes/druid/DRUID_STARTING_BOARD_STATS_GUIDE.md) - Starting board guide
 
@@ -197,6 +202,7 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 - [`spiritborn-paragon-boards.json`](classes/spiritborn/spiritborn-paragon-boards.json) - Full data with all node details
 - [`spiritborn-boards-summary.json`](classes/spiritborn/spiritborn-boards-summary.json) - Simplified summary
 - [`spiritborn-board-paths.json`](classes/spiritborn/spiritborn-board-paths.json) - Path analysis with distances
+- [`SPIRITBORN_NODE_VALUES.md`](classes/spiritborn/SPIRITBORN_NODE_VALUES.md) - Theorycraft value analysis ⭐
 - [`SPIRITBORN_PARAGON_BOARDS.md`](classes/spiritborn/SPIRITBORN_PARAGON_BOARDS.md) - Complete board documentation
 - [`SPIRITBORN_STARTING_BOARD_STATS_GUIDE.md`](classes/spiritborn/SPIRITBORN_STARTING_BOARD_STATS_GUIDE.md) - Starting board guide
 
