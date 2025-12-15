@@ -28,25 +28,21 @@ This guide helps you allocate your 36 paragon points while playing.
 
 **Rule:** If a node isn't touching your allocated nodes, you CAN'T allocate it yet.
 
-**Note:** Coordinates below show the sequence but may not match in-game visual positions exactly.
+**How to do this in-game:**
+1. Start at the bottom center node (your starting position)
+2. Look for nodes TOUCHING the start - allocate one going UPWARD
+3. Continue allocating nodes that touch your last allocated node
+4. Keep going UPWARD toward the top
+5. You'll reach the GATE node at the top (has special icon)
 
- 1. Position (10, 0) - +5 Willpower ← START
- 2. Position (9, 1) - +5 Willpower
- 3. Position (9, 2) - +5 Intelligence
- 4. Position (8, 3) - +5 Dexterity
- 5. Position (7, 4) - +5 Dexterity
- 6. Position (6, 5) - +5 Willpower
- 7. Position (5, 6) - +5 Strength
- 8. Position (6, 7) - +5 Willpower
- 9. Position (7, 8) - +5 Strength
-10. Position (8, 9) - +5 Strength
-11. Position (8, 10) - +5 Strength
-12. Position (7, 11) - +5 Strength
-13. Position (8, 12) - +5 Strength
-14. Position (9, 13) - +5 Willpower
-15. Position (10, 14) - +5 Strength ← GATE
+**You'll allocate:** ~15 nodes total going from bottom to top
 
-**Stats gained:** ~75 total stats (mixed Str/Dex/Will/Int)
+**Stats you'll see (based on your screenshots):**
+- Nodes around start: Strength nodes (like your screenshots show)
+- As you go up: Mix of Strength, Willpower, Dexterity, Intelligence
+- Each node: +5 to one of these stats (hover to see which)
+
+**Stats gained:** ~75 total stats (mixed across all 4 primary stats)
 
 ---
 

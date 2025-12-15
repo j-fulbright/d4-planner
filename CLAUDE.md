@@ -23,10 +23,12 @@ This is a **Diablo 4 Paragon Board Data Collection** project that extracts, anal
 4. You build a connected tree/path outward from your entry point
 
 **Example from starting board:**
-- Start at (10, 0)
-- Can allocate (9, 1) because it touches (10, 0)
-- Can allocate (9, 2) because it touches (9, 1)
-- CANNOT allocate (15, 15) randomly - no connection to your allocated nodes
+- Start at the starting node (bottom center)
+- Can allocate any node that TOUCHES the starting node
+- Can then allocate nodes that touch those newly-allocated nodes
+- CANNOT allocate nodes that aren't connected to your allocated path
+
+**Important:** Wowhead coordinate data does NOT accurately map to in-game visual positions. The coordinates are useful for data analysis and path-finding algorithms, but do NOT use them to describe which specific node is which in-game. Use node names (for rare nodes) and visual descriptions instead.
 
 **Implication for path analysis:**
 - The BFS paths calculated are not just "shortest route" but "required sequence"
