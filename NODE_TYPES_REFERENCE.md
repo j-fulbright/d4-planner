@@ -135,17 +135,6 @@ Rare Node Name
 
 ---
 
-## 💡 Using This Information
+**This reference helps you identify node types across all classes and boards!**
 
-**When building your 36-point allocation:**
-
-1. **Prioritize reaching the GATE** - 15 normal nodes
-2. **Grab accessible RARE nodes** - Brawn + Tenacity (2 nodes)
-3. **Take MAGIC nodes** if they're on your path (blue nodes)
-4. **Fill with normal nodes** to connect everything (19 nodes)
-
-**Total:** 36 nodes = Gate + 2 Rares + Magic if available + Normal connectors
-
----
-
-**This reference helps you identify node value while playing!**
+For class-specific rare node details, see: `classes/[classname]/[class]-boards-summary.json`
