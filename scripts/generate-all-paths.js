@@ -8,7 +8,8 @@ const fs = require('fs');
 function areNodesAdjacent(node1, node2) {
     const dx = Math.abs(node1.x - node2.x);
     const dy = Math.abs(node1.y - node2.y);
-    return (dx <= 1 && dy <= 1) && (dx + dy > 0);
+    // ONLY horizontal or vertical (4-directional), NO diagonals
+    return (dx + dy === 1);
 }
 
 // Build adjacency graph

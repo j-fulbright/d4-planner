@@ -9,8 +9,9 @@ function areNodesAdjacent(node1, node2) {
     const dx = Math.abs(node1.x - node2.x);
     const dy = Math.abs(node1.y - node2.y);
 
-    // Nodes are adjacent if they're 1 step away (horizontally, vertically, or diagonally)
-    return (dx <= 1 && dy <= 1) && (dx + dy > 0);
+    // Nodes are adjacent ONLY if horizontally or vertically connected (NO diagonals)
+    // Must be exactly 1 step away in either X or Y direction, but not both
+    return (dx + dy === 1);
 }
 
 // Build adjacency graph

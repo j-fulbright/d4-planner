@@ -19,8 +19,9 @@ This is a **Diablo 4 Paragon Board Data Collection** project that extracts, anal
 **How it works:**
 1. You start at the starting node (or gate if entering from another board)
 2. You can ONLY allocate nodes that touch an already-allocated node
-3. "Adjacent" = horizontally, vertically, or diagonally touching (within 1 step)
-4. You build a connected tree/path outward from your entry point
+3. **"Adjacent" = horizontally OR vertically touching (4-directional movement ONLY)**
+4. **NO DIAGONALS** - you cannot move diagonally between nodes
+5. You build a connected tree/path outward from your entry point
 
 **Example from starting board:**
 - Start at the starting node (bottom center)
@@ -212,6 +213,7 @@ adjacent = (dx <= 1 && dy <= 1) && (dx + dy > 0)
 
 **Graph structure:**
 - Nodes: Map of `"x,y"` → node object with neighbors array
+- Adjacency check: `dx + dy === 1` (4-directional only, no diagonals)
 - Shortest path: BFS guarantees minimum node count between points
 - Result: Array of {x, y} coordinates showing step-by-step route
 
