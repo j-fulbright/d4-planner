@@ -128,18 +128,30 @@ node scripts/create-visual-with-gates.js  # Updates markdown with ASCII layouts
 - Starting board: Always 75 nodes across all classes
 
 **Path Analysis:**
-- Starting board paths: 3 routes (Center: 14 nodes, Left: 7 nodes, Right: 7 nodes)
+- Starting board goal: ALWAYS reach the gate (top) to attach legendary boards
+- Primary path: 14 nodes straight to gate at (10, 14)
+- Alternative: ~20 nodes to gate with rare node detours
 - Legendary board paths: 6 gate-to-gate + 1 to legendary area = 7 paths per board
 - Path algorithm: BFS (breadth-first search) for shortest routes
 - Adjacency: Nodes within 1 step (horizontal, vertical, diagonal)
 
 ## Documentation Philosophy
 
-**Focus:** Realistic strategies only - no "completionist" content
-- Starting boards: 14-20 paragon point allocations
-- Goal: Rush to legendary boards, grab key rare nodes
-- Removed: "Full clear" 75-node strategies, +395 stat calculations
-- Why: Players spread points across 5-6 boards, not max one board
+**Focus:** Gate-oriented strategies - always aiming to attach legendary boards
+
+**Starting Board Strategies:**
+- **Primary Goal:** Reach the gate (14 nodes minimum) to attach legendary boards
+- **Direct Rush:** 14 nodes straight to gate - fastest legendary board access
+- **Rare Detour:** 18-22 nodes to gate with 1-2 rare node pickups - balanced approach
+- **No Partial Paths:** Left/Right branches that don't reach gate are not viable endgame strategies
+- **Leveling Exception:** Partial progress (1-13 nodes) is fine while leveling to 50+
+
+**Removed Unrealistic Content:**
+- "Full clear" 75-node strategies
+- Left/Right branch strategies that don't reach gate
+- Completionist stat calculations (+395 primary stat)
+
+**Why:** Players need to reach the gate to attach legendary boards where the real power is. Staying on starting board is inefficient.
 
 **ASCII Visualization:**
 - Gates marked as N/S/E/W (or S for start)

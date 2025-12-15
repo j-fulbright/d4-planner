@@ -40,30 +40,58 @@
 
 ---
 
-## 🛤️ Path Statistics Comparison
+## 🛤️ Paths to Gate (Legendary Board Attachment)
 
-### Path 1: Center Rush (14 nodes)
-**Destination:** (10, 14)
-**Base Stats Accumulated:** +75 Strength (15 nodes × 5 each)
+**Goal:** Reach the top gate at (10, 14) to attach your first legendary board
 
-**Route:** Bottom → Straight up through center
-```
-Common nodes provide: +5 Strength each
-Total: 15 nodes = +75 Strength
-```
+### Path 1: Direct Rush (Most Common)
+**Distance:** 14 nodes
+**Stats Gained:** +75 Primary Stat (15 nodes × 5 each)
 
-**Pros:**
-- ✅ Fastest route to attach legendary boards
-- ✅ Maximum strength gain
-- ✅ Access to center rare nodes (Raw Power, Iron Strength)
+**Route:** Straight up the center
+- Fastest route to gate
+- No detours to rare nodes
+- Minimal point investment
 
-**Cons:**
-- ❌ Misses rare nodes on sides
-- ❌ Less flexible routing
+**Best For:** 
+- Speed progression to legendary boards
+- Early leveling when paragon points are limited
+- Rushing to access build-defining legendary nodes
 
-**Best For:** Speed progression, rushing to unlock legendary boards
+**Strategy:** Get to gate ASAP, come back for rare nodes later once you have more points
 
 ---
+
+### Path 2: Rare Node Detour (Optimized)
+**Distance:** ~20 nodes
+**Stats Gained:** +100 Primary Stat + rare node bonuses
+
+**Route:** Center path with detours to key rare nodes
+- Grab high-priority rare nodes (damage/elite damage)
+- Still reaches gate efficiently
+- Better early power spike
+
+**Best For:**
+- Players with 20+ paragon points available
+- Builds that benefit from specific rare nodes
+- Balanced progression (power + legendary access)
+
+**Strategy:** Path to gate while collecting 1-2 critical rare nodes
+
+---
+
+### While Leveling (Pre-Gate)
+
+**If you have < 14 paragon points:**
+- Allocate points along the center path toward gate
+- Prioritize getting closer to gate each level
+- Don't branch to sides until you've reached gate
+- Each point gets you 1 step closer to legendary boards
+
+**Once at gate (14+ points):**
+- Attach first legendary board immediately
+- Come back to grab rare nodes with excess points
+- Focus paragon points on legendary boards going forward
 
 ### Path 2: Left Branch (7 nodes)
 **Destination:** (6, 7)
@@ -121,6 +149,31 @@ Total: 8 nodes = +40 Strength
 
 ## 🎮 Recommended Strategies
 
+### Strategy 1: Speed Runner (Recommended)
+**Objective:** Unlock legendary boards immediately
+
+1. Rush center path (14 nodes) → +75 Primary Stat
+2. Attach first legendary board at top gate
+3. Never look back - put points into legendary boards
+4. Only return if you have excess points later
+
+**Paragon Points:** 14 points
+**Build Phase:** Early game, first legendary board unlock
+
+---
+
+### Strategy 2: Power Spike
+**Objective:** Strong stats before reaching gate
+
+1. Take center path (7 nodes) → +35 Primary Stat  
+2. Detour to grab 1-2 high-value rare nodes (damage/elite damage)
+3. Return to center and complete path to gate
+4. Attach legendary board
+
+**Paragon Points:** 18-22 points
+**Build Phase:** Mid-game when you have points to spare
+
+---
 ### Strategy 1: Speed Runner (Most Common)
 **Objective:** Unlock legendary boards ASAP
 
@@ -211,11 +264,11 @@ Total: 8 nodes = +40 Strength
 
 ## 🎯 Quick Reference
 
-| Path | Nodes | Strength | Time to Gate | Best For |
-|------|-------|----------|--------------|----------|
-| **Center Rush** | 14 | +75 | Fastest | Progression |
-| **Left Branch** | 7 | +40 | No gate | Damage builds |
-| **Right Branch** | 7 | +40 | No gate | Tank builds |
+| Strategy | Paragon Points | Time to Gate | Best For |
+|----------|----------------|--------------|----------|
+| **Direct Rush** | 14 | Fastest | Unlocking legendary boards |
+| **Rare Detour** | 18-22 | Fast | Early power spike |
+| **Leveling** | 1-13 | Partial | Pre-gate progression |
 
 ---
 

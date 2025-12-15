@@ -35,11 +35,58 @@
 
 ---
 
-## 🛤️ Path Statistics Comparison
+## 🛤️ Paths to Gate (Legendary Board Attachment)
 
-### Path 1: Center Rush (14 nodes)
-**Base Stats:** +75 Willpower
-**Best For:** Fastest progression to legendary boards
+**Goal:** Reach the top gate at (10, 14) to attach your first legendary board
+
+### Path 1: Direct Rush (Most Common)
+**Distance:** 14 nodes
+**Stats Gained:** +75 Primary Stat (15 nodes × 5 each)
+
+**Route:** Straight up the center
+- Fastest route to gate
+- No detours to rare nodes
+- Minimal point investment
+
+**Best For:** 
+- Speed progression to legendary boards
+- Early leveling when paragon points are limited
+- Rushing to access build-defining legendary nodes
+
+**Strategy:** Get to gate ASAP, come back for rare nodes later once you have more points
+
+---
+
+### Path 2: Rare Node Detour (Optimized)
+**Distance:** ~20 nodes
+**Stats Gained:** +100 Primary Stat + rare node bonuses
+
+**Route:** Center path with detours to key rare nodes
+- Grab high-priority rare nodes (damage/elite damage)
+- Still reaches gate efficiently
+- Better early power spike
+
+**Best For:**
+- Players with 20+ paragon points available
+- Builds that benefit from specific rare nodes
+- Balanced progression (power + legendary access)
+
+**Strategy:** Path to gate while collecting 1-2 critical rare nodes
+
+---
+
+### While Leveling (Pre-Gate)
+
+**If you have < 14 paragon points:**
+- Allocate points along the center path toward gate
+- Prioritize getting closer to gate each level
+- Don't branch to sides until you've reached gate
+- Each point gets you 1 step closer to legendary boards
+
+**Once at gate (14+ points):**
+- Attach first legendary board immediately
+- Come back to grab rare nodes with excess points
+- Focus paragon points on legendary boards going forward
 
 ### Path 2: Left Branch (7 nodes)  
 **Base Stats:** +40 Willpower
@@ -82,11 +129,11 @@
 
 ## 🎯 Quick Reference
 
-| Path | Nodes | Willpower | Best For |
-|------|-------|----------|----------|
-| Center Rush | 14 | +75 | Speed progression |
-| Left Branch | 7 | +40 | Damage focus |
-| Right Branch | 7 | +40 | Balanced |
+| Strategy | Paragon Points | Time to Gate | Best For |
+|----------|----------------|--------------|----------|
+| **Direct Rush** | 14 | Fastest | Unlocking legendary boards |
+| **Rare Detour** | 18-22 | Fast | Early power spike |
+| **Leveling** | 1-13 | Partial | Pre-gate progression |
 
 ---
 
