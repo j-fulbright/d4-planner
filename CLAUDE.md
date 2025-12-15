@@ -206,9 +206,9 @@ The `dv` and `db` query parameters may change with game updates - check network 
 The path-finding uses **BFS (Breadth-First Search)** with graph adjacency:
 
 ```javascript
-// Two nodes are adjacent if within 1 step (including diagonals)
+// Two nodes are adjacent ONLY if horizontal or vertical (NO diagonals)
 dx = abs(x1 - x2), dy = abs(y1 - y2)
-adjacent = (dx <= 1 && dy <= 1) && (dx + dy > 0)
+adjacent = (dx + dy === 1)  // 4-directional: up, down, left, right only
 ```
 
 **Graph structure:**
