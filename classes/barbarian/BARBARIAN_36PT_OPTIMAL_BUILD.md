@@ -25,19 +25,19 @@ Reach the gate to attach legendary boards while maximizing damage with rare node
 
 ## 💎 Rare Nodes Selected
 
-### ✅ 1. Raw Power
-- **Bonuses:** +20% Damage, +10 Strength
-- **Priority:** ESSENTIAL - Universal damage boost
-- **Why:** 20% damage is worth ~40 common nodes
+### ✅ 1. Brawn
+- **Bonuses:** +20% Damage, 4% Maximum Life
+- **Location:** Lower board (Y=4-5, accessible on way to gate)
+- **Why:** First rare you encounter - damage + survivability
 
-### ✅ 2. Iron Strength
-- **Bonuses:** +30% Damage to Elites, +10 Strength
-- **Priority:** ESSENTIAL - Elite/boss encounters
-- **Why:** 30% elite damage is worth ~60 common nodes
+### ✅ 2. Tenacity
+- **Bonuses:** 4% Maximum Life, +2% Total Armor
+- **Location:** Lower board (Y=4-5, accessible on way to gate)
+- **Why:** Second rare you encounter - important for defense
 
-### ⏭️ Not Included:
-- **Tenacity:** +4% Life, +2% Armor (defensive, lower priority)
-- **Brawn:** +20% Damage, +4% Life (good but similar to Raw Power)
+### ❌ Not Included:
+- **Raw Power:** +20% Damage, +10 Strength (further up board, past gate)
+- **Iron Strength:** +30% Elite Damage, +10 Strength (further up board, past gate)
 
 ---
 
