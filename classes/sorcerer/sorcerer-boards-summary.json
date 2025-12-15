@@ -1,0 +1,795 @@
+{
+  "className": "Sorcerer",
+  "classId": "0",
+  "primaryStat": "Intelligence",
+  "resource": "Mana",
+  "totalBoards": 10,
+  "boards": [
+    {
+      "index": 1,
+      "id": 939773,
+      "name": "Starting Board",
+      "nodeCount": 75,
+      "legendaryNodeCount": 0,
+      "rareNodeCount": 4,
+      "isStartingBoard": true,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        }
+      ],
+      "gateCount": 1,
+      "legendaryNodes": [],
+      "rareNodes": [
+        {
+          "name": "Elemental Balance",
+          "attributes": [
+            "+20.0% Non-Physical Damage",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Studied",
+          "attributes": [
+            "+30.0% Damage to Elites",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Resilience",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Elementalist",
+          "attributes": [
+            "+20.0% Non-Physical Damage",
+            "4.0% Maximum Life"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "id": 939563,
+      "name": "Searing Heat",
+      "nodeCount": 191,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Searing Heat",
+          "description": "Pyromancy Skills have a 15%[+] increased Critical Strike Chance and all of your Skills deal increased Direct damage equal to 10% of your Critical Strike Damage Bonus, up to 60%[x].Current Direct Damage Bonus: -10%[x]"
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Flame-touched",
+          "attributes": [
+            "+20.0% Fire Damage",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Explosive",
+          "attributes": [
+            "+30.0% Critical Strike Damage",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Keeper of Flames",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Combustion",
+          "attributes": [
+            "+20.0% Fire Damage",
+            "+30.0% Critical Strike Damage"
+          ]
+        },
+        {
+          "name": "Recuperate",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+100 Life per 5 Seconds"
+          ]
+        },
+        {
+          "name": "Ashes",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+6.0% Healing Received"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "id": 993604,
+      "name": "Burning Instinct",
+      "nodeCount": 185,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Burning Instinct",
+          "description": "Your Burning damage is increased by 20%[x] of your Damage with Fire Bonus, plus 2%[x] for every 30 Intelligence you have, up to 90%[x].Current Burning Damage Bonus: 0%[x]"
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Keeper of Flames",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Safeguard",
+          "attributes": [
+            "+3.0% Total Armor",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Kindling",
+          "attributes": [
+            "+20.0% Damage to Burning Enemies",
+            "+30.0% Critical Strike Damage"
+          ]
+        },
+        {
+          "name": "Smoldering Embers",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+6.0% Healing Received"
+          ]
+        },
+        {
+          "name": "Cinders",
+          "attributes": [
+            "+20.0% Damage to Burning Enemies",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Explosive",
+          "attributes": [
+            "+30.0% Critical Strike Damage",
+            "+10 Intelligence"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "id": 939706,
+      "name": "Frigid Fate",
+      "nodeCount": 164,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Frigid Fate",
+          "description": "You deal bonus damage to Vulnerable enemies equal to 20%[x] of the total amount of your Bonus Damage with Cold, up to a maximum of 60%[x].Current Bonus: 0%[x]"
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Restorative",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+6.0% Healing Received"
+          ]
+        },
+        {
+          "name": "Advantage",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+5.0% Lucky Hit Chance"
+          ]
+        },
+        {
+          "name": "Elemental Favor",
+          "attributes": [
+            "+20.0% Non-Physical Damage",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Weakness",
+          "attributes": [
+            "+25.0% Vulnerable Damage",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Guarded",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Oppressive",
+          "attributes": [
+            "+25.0% Vulnerable Damage",
+            "+2.0% Total Armor"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "id": 997305,
+      "name": "Icefall",
+      "nodeCount": 171,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Icefall",
+          "description": "Your Frost Skills deal 35%[x] increased damage. This bonus is doubled and granted to all Skills if the enemy is Frozen or a Boss."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Keeper of Winter",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Frigid",
+          "attributes": [
+            "+3.0% Total Armor",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Polar Rime",
+          "attributes": [
+            "+20.0% Non-Physical Damage",
+            "+5.0% Lucky Hit Chance"
+          ]
+        },
+        {
+          "name": "Recuperate",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+100 Life per 5 Seconds"
+          ]
+        },
+        {
+          "name": "Frosts",
+          "attributes": [
+            "+25.0% Vulnerable Damage",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Cryomancy",
+          "attributes": [
+            "+20.0% Cold Damage",
+            "+10 Intelligence"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "id": 939708,
+      "name": "Static Surge",
+      "nodeCount": 156,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Static Surge",
+          "description": "Hitting enemies at least 8 times in a second with Shock Skills grants 30 Mana Regeneration and increases your damage by 50%[x] for 2 seconds."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Insulated",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Blessing",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Incapacitate",
+          "attributes": [
+            "+20.0% Lightning Damage",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Electro",
+          "attributes": [
+            "+30.0% Critical Strike Damage",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Restorative",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+6.0% Healing Received"
+          ]
+        },
+        {
+          "name": "Paralyzing",
+          "attributes": [
+            "+35.0% Damage to Stunned Enemies",
+            "4.0% Resource Cost Reduction"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "id": 1192460,
+      "name": "Ceaseless Conduit",
+      "nodeCount": 162,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Ceaseless Conduit",
+          "description": "While you have Crackling Energy charges, you deal 10%[x] increased damage. This amount increases by 2%[x] per 20 Intelligence you have up to 60%[x]. When you reach full charges, your Crackling Energy damage is increased by 3 times this amount until you run out of charges.Current Bonus: 10%[x]"
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Suffused Resilience",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Conduit",
+          "attributes": [
+            "+2.0% Critical Strike Chance",
+            "+20.0% Lightning Damage"
+          ]
+        },
+        {
+          "name": "Insulated",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Shelter",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Galvanic Catalyst",
+          "attributes": [
+            "+20.0% Lightning Damage",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Devastate",
+          "attributes": [
+            "+45.0% <span style=\"color: #E3E0D9\">Crackling Energy</span> Damage",
+            "+10 Intelligence"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "id": 939747,
+      "name": "Elemental Summoner",
+      "nodeCount": 158,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Elemental Summoner",
+          "description": "Your Conjuration Skills have a 10%[x] reduced Cooldown or Mana cost.  They also deal bonus damage equal to 10%[x] of the total amount of your Bonus Damage with Fire, Lightning, and Cold, up to 60%[x].Current Bonus: 0%[x]"
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Conjurer",
+          "attributes": [
+            "+30.0% <span style=\"color: #E3E0D9\">Conjuration</span> Damage",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Keeper of Elements",
+          "attributes": [
+            "+20.0% Non-Physical Damage",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Reservoir",
+          "attributes": [
+            "3.0% <span style=\"color: #E3E0D9\">Conjuration</span> Cooldown Reduction",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Resistant",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Swift Conjurer",
+          "attributes": [
+            "+2.5% Attack Speed",
+            "+30.0% <span style=\"color: #E3E0D9\">Conjuration</span> Damage"
+          ]
+        },
+        {
+          "name": "Fleeting",
+          "attributes": [
+            "12.0% Impairment Reduction",
+            "2.0% Dodge Chance"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "id": 1192467,
+      "name": "Enchantment Master",
+      "nodeCount": 174,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Enchantment Master",
+          "description": "Your Enchantments are 30% stronger, and each equipped Enchantment grants 40%[x] increased damage with their main element, and 20%[x] increased damage for the second Enchantment if it is the same element."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Elemental Balance",
+          "attributes": [
+            "+20.0% Non-Physical Damage",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Tactical",
+          "attributes": [
+            "+30.0% Damage to Elites",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Toughened",
+          "attributes": [
+            "+3.0% Total Armor",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Ruinous",
+          "attributes": [
+            "+20.0% Non-Physical Damage",
+            "+2.5% Attack Speed"
+          ]
+        },
+        {
+          "name": "Suffused Resilience",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Blessing",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "id": 1985929,
+      "name": "Fundamental Release",
+      "nodeCount": 171,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Fundamental Release",
+          "description": "Each time you apply Vulnerable, Burning, or Critically Strike an enemy, they take 10%[x] increased damage from you, up to 50%[x]. Your Ultimate Skill damage is increased by 10%[x] of your Non-Physical Damage bonus, up to 40.0%[x].Current Bonus: 10.0%[x]"
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Lightning Cutter",
+          "attributes": [
+            "+25.0% Vulnerable Damage",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Elemental Balance",
+          "attributes": [
+            "+20.0% Non-Physical Damage",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Overdrive",
+          "attributes": [
+            "+3.0% Total Armor",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Electromagnetism",
+          "attributes": [
+            "+3.0% Total Armor",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Kindling",
+          "attributes": [
+            "+20.0% Damage to Burning Enemies",
+            "+30.0% Critical Strike Damage"
+          ]
+        },
+        {
+          "name": "Suffused Resilience",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+3.0% Total Resistance"
+          ]
+        }
+      ]
+    }
+  ]
+}

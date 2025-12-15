@@ -1,0 +1,713 @@
+{
+  "className": "Spiritborn",
+  "classId": "5",
+  "primaryStat": "Dexterity",
+  "resource": "Vigor",
+  "totalBoards": 9,
+  "boards": [
+    {
+      "index": 1,
+      "id": 1985956,
+      "name": "Starting Board",
+      "nodeCount": 75,
+      "legendaryNodeCount": 0,
+      "rareNodeCount": 4,
+      "isStartingBoard": true,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        }
+      ],
+      "gateCount": 1,
+      "legendaryNodes": [],
+      "rareNodes": [
+        {
+          "name": "Skillful",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Spiritual",
+          "attributes": [
+            "+30.0% Damage to Elites",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Tenacity",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Prime",
+          "attributes": [
+            "+20.0% Damage",
+            "4.0% Maximum Life"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "id": 1985954,
+      "name": "In-Fighter",
+      "nodeCount": 191,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "In-Fighter",
+          "description": "When you Dodge or Block an attack you gain 20%[+] increased Attack Speed and 15%[x] increased Damage for 5 seconds."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Rampage",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Master",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Training",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Primal Rage",
+          "attributes": [
+            "5% Block Chance",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Mosquito",
+          "attributes": [
+            "2.0% Dodge Chance",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Incombustible",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "id": 1986368,
+      "name": "Spiney Skin",
+      "nodeCount": 164,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Spiney Skin",
+          "description": "When you use a Cooldown you gain 35% Thorns for 5 seconds."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Vigilant",
+          "attributes": [
+            "2.0% Cooldown Reduction",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Decay",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+1.5 Thorns"
+          ]
+        },
+        {
+          "name": "Bristles",
+          "attributes": [
+            "+1.5 Thorns",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Prophetic",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Defiance",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Stoic",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+1.5 Thorns"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "id": 1986382,
+      "name": "Viscous Shield",
+      "nodeCount": 156,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Viscous Shield",
+          "description": "You do 1%[x] increased damage for each 3% of your Maximum Life you have as a Barrier."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Primal Ward",
+          "attributes": [
+            "+6.0% Barrier Generation",
+            "+30.0% Critical Strike Damage"
+          ]
+        },
+        {
+          "name": "Slayer",
+          "attributes": [
+            "+3.0% Total Armor",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Raptor",
+          "attributes": [
+            "+30.0% Critical Strike Damage",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Fearless",
+          "attributes": [
+            "+20.0% Damage while You Have a Barrier",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Bristle",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+25.0% Vulnerable Damage"
+          ]
+        },
+        {
+          "name": "Sentinel",
+          "attributes": [
+            "+5.0% Lucky Hit Chance",
+            "+3.0% Total Resistance"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "id": 1986416,
+      "name": "Bitter Medicine",
+      "nodeCount": 160,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Bitter Medicine",
+          "description": "After Healing for 100% of your Maximum Life you afflict Close enemies, dealing 200% Poisoning damage over 6 seconds and causing them to take 40%[x] more Poisoning damage."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Gifted",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Ambush",
+          "attributes": [
+            "+24.0% Damage to Close Enemies",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Immunization",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Restorative",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+6.0% Healing Received"
+          ]
+        },
+        {
+          "name": "Natural Vitality",
+          "attributes": [
+            "+6.0% Healing Received",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Flash Fire",
+          "attributes": [
+            "+2.5% Attack Speed",
+            "+20.0% Damage"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "id": 1986433,
+      "name": "Revealing",
+      "nodeCount": 185,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Revealing",
+          "description": "Lucky Hit: Up to a 30% chance to Knock Down Vulnerable enemies. You deal 15%[x] increased damage, doubled against Crowd Controlled enemies."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Haven",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+3.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Patience",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+2.0% Dodge Chance"
+          ]
+        },
+        {
+          "name": "Grounded",
+          "attributes": [
+            "+2.5% Attack Speed",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Sentinel",
+          "attributes": [
+            "+5.0% Lucky Hit Chance",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Artifice",
+          "attributes": [
+            "+25.0% Vulnerable Damage",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Venom Weaver",
+          "attributes": [
+            "+35.0% Damage to Crowd Controlled Enemies",
+            "+10 Dexterity"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "id": 1986521,
+      "name": "Drive",
+      "nodeCount": 170,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Drive",
+          "description": "After moving 10 meters, you deal 6.0%[x] increased damage for 10 seconds.  This can stack up to 10 times."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Restorative",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+6.0% Healing Received"
+          ]
+        },
+        {
+          "name": "Nature's Dance",
+          "attributes": [
+            "+2.0% Dodge Chance",
+            "+5.0% Lucky Hit Chance"
+          ]
+        },
+        {
+          "name": "Piercing Gale",
+          "attributes": [
+            "+5.0% Movement Speed",
+            "+2.0% Critical Strike Chance"
+          ]
+        },
+        {
+          "name": "Zephyr",
+          "attributes": [
+            "+3.0% Total Armor",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Tolerance",
+          "attributes": [
+            "+25.0% Vulnerable Damage",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Peerless",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Dexterity"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "id": 1986631,
+      "name": "Convergence",
+      "nodeCount": 162,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Convergence",
+          "description": "You deal bonus damage equal to 7.5%[x] of all your bonuses to Damage with Physical, Fire, Lightning, Cold, Poison, and Shadow combined, up to 60%[x] total.Current Bonus: 0.00%"
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Elementalist",
+          "attributes": [
+            "+20.0% Non-Physical Damage",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Training",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Ruinous",
+          "attributes": [
+            "+20.0% Non-Physical Damage",
+            "+2.5% Attack Speed"
+          ]
+        },
+        {
+          "name": "Denial",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Spearhead",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Skillful",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Dexterity"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "id": 1986843,
+      "name": "Sapping",
+      "nodeCount": 173,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Sapping",
+          "description": "When you cast 3 Gorilla, Jaguar, Eagle, or Centipede Skills with the same Spirit in a row, restore 15 Vigor and deal 60%[x] increased damage for 5 seconds."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Concentrated",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Eager Prey",
+          "attributes": [
+            "+4 Maximum Resource",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Sprightful",
+          "attributes": [
+            "+2.5% Attack Speed",
+            "+2.0% Dodge Chance"
+          ]
+        },
+        {
+          "name": "Denial",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Resilience",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Opportunist",
+          "attributes": [
+            "4.0% Resource Generation",
+            "+8 Maximum Resource"
+          ]
+        }
+      ]
+    }
+  ]
+}

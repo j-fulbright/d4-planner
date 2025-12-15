@@ -1,0 +1,795 @@
+{
+  "className": "Necromancer",
+  "classId": "4",
+  "primaryStat": "Intelligence",
+  "resource": "Essence",
+  "totalBoards": 10,
+  "boards": [
+    {
+      "index": 1,
+      "id": 934225,
+      "name": "Starting Board",
+      "nodeCount": 75,
+      "legendaryNodeCount": 0,
+      "rareNodeCount": 4,
+      "isStartingBoard": true,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        }
+      ],
+      "gateCount": 1,
+      "legendaryNodes": [],
+      "rareNodes": [
+        {
+          "name": "Knowledge",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Grasp",
+          "attributes": [
+            "+30.0% Damage to Elites",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Resilience",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Prime",
+          "attributes": [
+            "+20.0% Damage",
+            "4.0% Maximum Life"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "id": 934283,
+      "name": "Cult Leader",
+      "nodeCount": 191,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Cult Leader",
+          "description": "Your Minions deal 40%[x] increased damage for each 20% of Attack Speed Bonus they have, up to a maximum of 100% Attack Speed Bonus."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Overlord",
+          "attributes": [
+            "+20.0% <span style=\"color: #E3E0D9\">Summon</span> Damage",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Custody",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Infused Caster",
+          "attributes": [
+            "+50.0% <span style=\"color: #E3E0D9\">Skeleton Mage</span> Damage",
+            "+8.0% Resistance to All Elements for Your <span style=\"color: #E3E0D9\">Summons</span> "
+          ]
+        },
+        {
+          "name": "Puppeteer",
+          "attributes": [
+            "+5.0% <span style=\"color: #E3E0D9\">Summon</span> Attack Speed",
+            "+20.0% <span style=\"color: #E3E0D9\">Summon</span> Damage"
+          ]
+        },
+        {
+          "name": "Infused Warrior",
+          "attributes": [
+            "+50.0% <span style=\"color: #E3E0D9\">Skeleton Warrior</span> Damage",
+            "+14.0% <span style=\"color: #E3E0D9\">Skeletal Warriors</span> Armor"
+          ]
+        },
+        {
+          "name": "Armor-clad",
+          "attributes": [
+            "+8.0% Armor for Your <span style=\"color: #E3E0D9\">Summons</span>",
+            "10.0% Maximum <span style=\"color: #E3E0D9\">Summon</span> Life"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "id": 934503,
+      "name": "Hulking Monstrosity",
+      "nodeCount": 164,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Hulking Monstrosity",
+          "description": "Your Golem has 40%[x] increased Maximum Life and deals 100%[x] increased damage. Skeletal Mages and Warriors Sacrifice Bonuses grant an additional 60%[x] Golem damage."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Infused Golem",
+          "attributes": [
+            "+50.0% <span style=\"color: #E3E0D9\">Golem</span> Damage",
+            "14.0% <span style=\"color: #E3E0D9\">Golems</span> Maximum Life"
+          ]
+        },
+        {
+          "name": "Flesh-horror",
+          "attributes": [
+            "+14.0% <span style=\"color: #E3E0D9\">Golems</span> Armor",
+            "+8.0% Resistance to All Elements for Your <span style=\"color: #E3E0D9\">Summons</span> "
+          ]
+        },
+        {
+          "name": "Miscreation",
+          "attributes": [
+            "+20.0% <span style=\"color: #E3E0D9\">Summon</span> Damage",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Mutation",
+          "attributes": [
+            "+50.0% <span style=\"color: #E3E0D9\">Golem</span> Damage",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Borrowed Strength",
+          "attributes": [
+            "+20.0% Damage",
+            "+3.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Frenzied Golem",
+          "attributes": [
+            "+50.0% <span style=\"color: #E3E0D9\">Golem</span> Damage",
+            "+17.0% <span style=\"color: #E3E0D9\">Golems</span> Attack Speed"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "id": 934571,
+      "name": "Flesh-eater",
+      "nodeCount": 156,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Flesh-eater",
+          "description": "Consuming 3 Corpses grants 40%[x] increased damage for 6 seconds."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Blood Clotting",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Stifle",
+          "attributes": [
+            "+25.0% Damage to Injured Enemies",
+            "+5.0% <span style=\"color: #E3E0D9\">Corpse</span> Attack Speed"
+          ]
+        },
+        {
+          "name": "Targeted",
+          "attributes": [
+            "+30.0% Damage to Elites",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Rend",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Recuperate",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+100 Life per 5 Seconds"
+          ]
+        },
+        {
+          "name": "Erudite",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "id": 934636,
+      "name": "Scent of Death",
+      "nodeCount": 158,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Scent of Death",
+          "description": "You gain 15% Armor, 15% All Resist, and deal 30%[x] increased Critical Strike damage."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Deathmarked",
+          "attributes": [
+            "+25.0% Damage to Injured Enemies",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Seethe",
+          "attributes": [
+            "+25.0% Damage to Healthy Enemies",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Deathbringer",
+          "attributes": [
+            "+2.0% Total Armor",
+            "+25.0% Damage to Injured Enemies"
+          ]
+        },
+        {
+          "name": "Restorative",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+6.0% Healing Received"
+          ]
+        },
+        {
+          "name": "Suffused Resilience",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Shrouded",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "id": 994044,
+      "name": "Bone Graft",
+      "nodeCount": 185,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Bone Graft",
+          "description": "Your Bone Skills deal 40%[x] increased damage and your Maximum Essence is increased by 10."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Entomb",
+          "attributes": [
+            "+2.0% Critical Strike Chance",
+            "+3.0% Healing Received"
+          ]
+        },
+        {
+          "name": "Erudite",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Suffused Resilience",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Reinvigorate",
+          "attributes": [
+            "+8 Maximum Essence",
+            "+2 Essence On Kill"
+          ]
+        },
+        {
+          "name": "Shaper of Bone",
+          "attributes": [
+            "+20.0% <span style=\"color: #E3E0D9\">Bone</span> Damage",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Splinter",
+          "attributes": [
+            "+30.0% Critical Strike Damage",
+            "+10 Intelligence"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "id": 999512,
+      "name": "Blood Begets Blood",
+      "nodeCount": 171,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Blood Begets Blood",
+          "description": "Blood Orbs grant 10%[x] increased damage, up to 50%[x], for 5 seconds."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Recuperate",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+100 Life per 5 Seconds"
+          ]
+        },
+        {
+          "name": "Blooddrinker",
+          "attributes": [
+            "+10.0% <span style=\"color: #E3E0D9\">Blood Orb</span> Healing",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Vampiric",
+          "attributes": [
+            "+10.0% <span style=\"color: #E3E0D9\">Blood Orb</span> Healing",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Invigorated",
+          "attributes": [
+            "+20.0% <span style=\"color: #E3E0D9\">Blood</span> Damage",
+            "+25.0% Damage while Healthy"
+          ]
+        },
+        {
+          "name": "Blood-Empowered",
+          "attributes": [
+            "+20.0% <span style=\"color: #E3E0D9\">Blood</span> Damage",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Aggression",
+          "attributes": [
+            "+25.0% Damage while Healthy",
+            "+10 Intelligence"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "id": 1198874,
+      "name": "Bloodbath",
+      "nodeCount": 162,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Bloodbath",
+          "description": "Deal 40%[x] increased Overpower damage. After Overpowering, you deal 25%[x] increased Blood Skill damage for 5 seconds. "
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Guarded Advance",
+          "attributes": [
+            "+20.0% Damage while Fortified",
+            "+3.2% Fortify Generation"
+          ]
+        },
+        {
+          "name": "Powerhouse",
+          "attributes": [
+            "+6.0% Healing Received",
+            "+70.0% Overpower Damage"
+          ]
+        },
+        {
+          "name": "Suffused Resilience",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Thick Hide",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+20.0% Damage while Fortified"
+          ]
+        },
+        {
+          "name": "Hardened",
+          "attributes": [
+            "+20.0% Damage while Fortified",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Remedy",
+          "attributes": [
+            "+70.0% Overpower Damage",
+            "+10 Intelligence"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "id": 1198876,
+      "name": "Wither",
+      "nodeCount": 174,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Wither",
+          "description": "Your Shadow damage has a 20% chance to deal 300%[x] increased damage."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Malediction",
+          "attributes": [
+            "+20.0% Shadow Damage",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Gnawing Darkness",
+          "attributes": [
+            "+20.0% Damage to Shadow Damage Over Time-Affected Enemies",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Lingering Shadows",
+          "attributes": [
+            "+30.0% Shadow Damage Over Time",
+            "4.0% Resource Cost Reduction"
+          ]
+        },
+        {
+          "name": "Gloom",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Dragging Shadows",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Restorative",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+6.0% Healing Received"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "id": 1985895,
+      "name": "Frailty",
+      "nodeCount": 171,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Frailty",
+          "description": "Cursed enemies take 10%[x] increased damage from you and your Minions. This bonus is increased by 10%[x] each second they are Cursed, up to 40%[x]."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Eradicate",
+          "attributes": [
+            "+25.0% Vulnerable Damage",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Preservation",
+          "attributes": [
+            "+35.0% Damage to Crowd Controlled Enemies",
+            "+10 Intelligence"
+          ]
+        },
+        {
+          "name": "Relentless",
+          "attributes": [
+            "+2.5% Attack Speed",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Lingering Shadows",
+          "attributes": [
+            "+30.0% Shadow Damage Over Time",
+            "4.0% Resource Cost Reduction"
+          ]
+        },
+        {
+          "name": "Meticulous",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Shrouded",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        }
+      ]
+    }
+  ]
+}

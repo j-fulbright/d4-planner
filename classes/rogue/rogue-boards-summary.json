@@ -1,0 +1,795 @@
+{
+  "className": "Rogue",
+  "classId": "3",
+  "primaryStat": "Dexterity",
+  "resource": "Energy",
+  "totalBoards": 10,
+  "boards": [
+    {
+      "index": 1,
+      "id": 939852,
+      "name": "Starting Board",
+      "nodeCount": 75,
+      "legendaryNodeCount": 0,
+      "rareNodeCount": 4,
+      "isStartingBoard": true,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        }
+      ],
+      "gateCount": 1,
+      "legendaryNodes": [],
+      "rareNodes": [
+        {
+          "name": "Skillful",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Outlaw",
+          "attributes": [
+            "+30.0% Damage to Elites",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Resilience",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Prime",
+          "attributes": [
+            "+20.0% Damage",
+            "4.0% Maximum Life"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "id": 939854,
+      "name": "Eldritch Bounty",
+      "nodeCount": 191,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Eldritch Bounty",
+          "description": "You gain 3%[+] Poison, Shadow, and Cold Resistance. You gain 50%[x] increased Poison, Shadow, and Cold damage."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Potent",
+          "attributes": [
+            "+40.0% <span style=\"color: #E3E0D9\">Imbued</span> Damage",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Concoction",
+          "attributes": [
+            "+20.0% Non-Physical Damage",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Suffused Resilience",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Ready Supply",
+          "attributes": [
+            "+20.0% Non-Physical Damage",
+            "3.0% <span style=\"color: #E3E0D9\">Imbuement</span> Cooldown Reduction"
+          ]
+        },
+        {
+          "name": "Restorative",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+6.0% Healing Received"
+          ]
+        },
+        {
+          "name": "Imbuer",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+2.0% Total Armor"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "id": 939862,
+      "name": "Tricks of the Trade",
+      "nodeCount": 164,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Tricks of the Trade",
+          "description": "Enemies damaged by your Marksman Skills take 50%[x] increased damage from your Cutthroat Skills, and vice versa."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Brawler",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+24.0% Damage to Close Enemies"
+          ]
+        },
+        {
+          "name": "Shrouded",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Surgical",
+          "attributes": [
+            "+20.0% <span style=\"color: #E3E0D9\">Cutthroat</span> Damage",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Focused",
+          "attributes": [
+            "+20.0% <span style=\"color: #E3E0D9\">Marksman</span> Damage",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Ranger",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+80.0% Damage to Distant Enemies"
+          ]
+        },
+        {
+          "name": "Haven",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+3.0% Total Armor"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "id": 939857,
+      "name": "Cheap Shot",
+      "nodeCount": 156,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Cheap Shot",
+          "description": "You deal 30%[x] increased damage, doubled against Crowd Controlled enemies."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Calculated",
+          "attributes": [
+            "+35.0% Damage to Crowd Controlled Enemies",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Deviant",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Devious",
+          "attributes": [
+            "+35.0% Damage to Crowd Controlled Enemies",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Artifice",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Safeguard",
+          "attributes": [
+            "+3.0% Total Armor",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Spearhead",
+          "attributes": [
+            "+25.0% Damage to Healthy Enemies",
+            "4.0% Maximum Life"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "id": 939856,
+      "name": "Deadly Ambush",
+      "nodeCount": 158,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Deadly Ambush",
+          "description": "You deal 50%[x] increased Critical Strike Damage and Damage Over Time to enemies affected by your Trap Skills."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Engineering",
+          "attributes": [
+            "+20.0% Damage to Enemies Affected by <span style=\"color: #E3E0D9\">Trap</span> Skills",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Ensnarement",
+          "attributes": [
+            "+30.0% Critical Strike Damage",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Immunization",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Spring-loaded",
+          "attributes": [
+            "3.0% <span style=\"color: #E3E0D9\">Trap</span> Cooldown Reduction",
+            "<span style=\"color: #E3E0D9\">Traps</span> Arm 0.5 Seconds Faster"
+          ]
+        },
+        {
+          "name": "Trapper",
+          "attributes": [
+            "+40.0% <span style=\"color: #E3E0D9\">Trap</span> Damage",
+            "+2.0% Critical Strike Chance"
+          ]
+        },
+        {
+          "name": "Cunning",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+3.0% Total Resistance"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "id": 994040,
+      "name": "Leyrana's Instinct",
+      "nodeCount": 185,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Leyrana's Instinct",
+          "description": "Your Core Skills deal 60%[x] increased damage. When Inner Sight's gauge becomes full, you gain 100%[+] Dodge Chance for 2 seconds."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Suffused Resilience",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Immunization",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Nimble",
+          "attributes": [
+            "+2.5% Attack Speed",
+            "+20.0% Damage"
+          ]
+        },
+        {
+          "name": "Restorative",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+6.0% Healing Received"
+          ]
+        },
+        {
+          "name": "Essential",
+          "attributes": [
+            "+28.0% <span style=\"color: #E3E0D9\">Core</span> Damage",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Punishment",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Dexterity"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "id": 999296,
+      "name": "No Witnesses",
+      "nodeCount": 171,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "No Witnesses",
+          "description": "Your Ultimate Skills gain an additional 30%[x] damage from your Damage with Ultimate bonus and grant this bonus to all other Skills for 10 seconds when cast.Current Bonus: 0%[x]Maximum Bonus: 60%[x]"
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Recuperate",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+100 Life per 5 Seconds"
+          ]
+        },
+        {
+          "name": "Culler",
+          "attributes": [
+            "+2.5% Attack Speed",
+            "+20.0% Non-Physical Damage"
+          ]
+        },
+        {
+          "name": "Training",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Fleeting",
+          "attributes": [
+            "12.0% Impairment Reduction",
+            "2.0% Dodge Chance"
+          ]
+        },
+        {
+          "name": "Skillful",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Deliverance",
+          "attributes": [
+            "+35.0% <span style=\"color: #E3E0D9\">Ultimate</span> Damage",
+            "+10 Dexterity"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "id": 1197889,
+      "name": "Exploit Weakness",
+      "nodeCount": 162,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Exploit Weakness",
+          "description": "You deal 45%[x] increased Vulnerable damage. The first time you hit a Vulnerable enemy, their damage is reduced by 20%[x] for 6 seconds."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Defensive Stance",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Toughened",
+          "attributes": [
+            "+3.0% Total Armor",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Unassailable",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+25.0% Vulnerable Damage"
+          ]
+        },
+        {
+          "name": "Exploit",
+          "attributes": [
+            "+25.0% Vulnerable Damage",
+            "+5.0% Lucky Hit Chance"
+          ]
+        },
+        {
+          "name": "Artifice",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Misery",
+          "attributes": [
+            "+30.0% Damage to Elites",
+            "+10 Dexterity"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "id": 1197891,
+      "name": "Cunning Stratagem",
+      "nodeCount": 174,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Cunning Stratagem",
+          "description": "Your Combo Point bonuses are increased by 40%[x] when you spend 3 Combo Points."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Finisher",
+          "attributes": [
+            "+28.0% <span style=\"color: #E3E0D9\">Core</span> Damage",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Fundamentals",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Dominant",
+          "attributes": [
+            "+28.0% <span style=\"color: #E3E0D9\">Core</span> Damage",
+            "+5.0% <span style=\"color: #E3E0D9\">Basic</span> Attack Speed"
+          ]
+        },
+        {
+          "name": "Haven",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+3.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Denial",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Slayer",
+          "attributes": [
+            "+3.0% Total Armor",
+            "4.0% Maximum Life"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "id": 1985919,
+      "name": "Danse Macabre",
+      "nodeCount": 171,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Danse Macabre",
+          "description": "Casting a Mobility or Subterfuge Skill increases your damage by 50%[x] for 10 seconds."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Giant Killer",
+          "attributes": [
+            "+30.0% Damage to Elites",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Assassin",
+          "attributes": [
+            "+25.0% Damage to Healthy Enemies",
+            "+10 Dexterity"
+          ]
+        },
+        {
+          "name": "Ranger",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+80.0% Damage to Distant Enemies"
+          ]
+        },
+        {
+          "name": "Brawler",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+24.0% Damage to Close Enemies"
+          ]
+        },
+        {
+          "name": "Acrobat",
+          "attributes": [
+            "3.0% <span style=\"color: #E3E0D9\">Mobility</span> Cooldown Reduction",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Skulker",
+          "attributes": [
+            "3.0% <span style=\"color: #E3E0D9\">Subterfuge</span> Cooldown Reduction",
+            "+3.0% Total Resistance"
+          ]
+        }
+      ]
+    }
+  ]
+}

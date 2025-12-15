@@ -1,0 +1,795 @@
+{
+  "className": "Druid",
+  "classId": "1",
+  "primaryStat": "Willpower",
+  "resource": "Spirit",
+  "totalBoards": 10,
+  "boards": [
+    {
+      "index": 1,
+      "id": 940011,
+      "name": "Starting Board",
+      "nodeCount": 75,
+      "legendaryNodeCount": 0,
+      "rareNodeCount": 4,
+      "isStartingBoard": true,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        }
+      ],
+      "gateCount": 1,
+      "legendaryNodes": [],
+      "rareNodes": [
+        {
+          "name": "Impel",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Willpower"
+          ]
+        },
+        {
+          "name": "Reclaim",
+          "attributes": [
+            "+30.0% Damage to Elites",
+            "+10 Willpower"
+          ]
+        },
+        {
+          "name": "Tenacity",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Prime",
+          "attributes": [
+            "+20.0% Damage",
+            "4.0% Maximum Life"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "id": 939952,
+      "name": "Thunderstruck",
+      "nodeCount": 191,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Thunderstruck",
+          "description": "Storm Skills deal increased damage equal to 20%[x] of your Damage vs Close and Damage vs Distant bonuses, up to 60%[x].Current Bonus: 0%[x]"
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Stormcaller",
+          "attributes": [
+            "+20.0% <span style=\"color: #E3E0D9\">Storm</span> Damage",
+            "+10 Willpower"
+          ]
+        },
+        {
+          "name": "Concentrated",
+          "attributes": [
+            "+24.0% Damage to Close Enemies",
+            "+10 Willpower"
+          ]
+        },
+        {
+          "name": "Insulated",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Deluge",
+          "attributes": [
+            "+40.0% Damage to Distant Enemies",
+            "+35.0% Damage to Crowd Controlled Enemies"
+          ]
+        },
+        {
+          "name": "Hubris",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+6.0% Healing Received"
+          ]
+        },
+        {
+          "name": "Tempest",
+          "attributes": [
+            "+2.0% Critical Strike Chance",
+            "+25.0% Vulnerable Damage"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "id": 939954,
+      "name": "Earthen Devastation",
+      "nodeCount": 164,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Earthen Devastation",
+          "description": "Your Earth Skills deal 70%[x] increased Critical Strike Damage."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Oppress",
+          "attributes": [
+            "+35.0% Damage to Crowd Controlled Enemies",
+            "+30.0% Critical Strike Damage"
+          ]
+        },
+        {
+          "name": "Suffused Resilience",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Crushing Earth",
+          "attributes": [
+            "+35.0% Damage to Crowd Controlled Enemies",
+            "+10 Willpower"
+          ]
+        },
+        {
+          "name": "Earthen Power",
+          "attributes": [
+            "+20.0% <span style=\"color: #E3E0D9\">Earth</span> Damage",
+            "+10 Willpower"
+          ]
+        },
+        {
+          "name": "Slayer",
+          "attributes": [
+            "+3.0% Total Armor",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Resolve",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "id": 939976,
+      "name": "Survival Instincts",
+      "nodeCount": 156,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Survival Instincts",
+          "description": "While in Werebear form, you deal 30%[x] increased damage or 45%[x] when you are at full Life. You have 1%[x] increased Overpower damage, up to 25%[x], for every 1%[x] difference in current Life percent and Fortified Life percent between you and the enemy."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Zealous",
+          "attributes": [
+            "+25.0% Damage while Healthy",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Spearhead",
+          "attributes": [
+            "+25.0% Damage to Healthy Enemies",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Grizzly",
+          "attributes": [
+            "+20.0% Damage while in Werebear Form",
+            "+10 Willpower"
+          ]
+        },
+        {
+          "name": "Battleworn Hide",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+10 Willpower"
+          ]
+        },
+        {
+          "name": "Bulwark",
+          "attributes": [
+            "+20.0% Damage while Fortified",
+            "+3.2% Fortify Generation"
+          ]
+        },
+        {
+          "name": "Ursine",
+          "attributes": [
+            "+3.0% Total Armor",
+            "4.0% Maximum Life"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "id": 939984,
+      "name": "Lust for Carnage",
+      "nodeCount": 158,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Lust for Carnage",
+          "description": "Critical Strikes with Werewolf Skills restore 2 Spirit and deal 50%[x] increased damage."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Feral",
+          "attributes": [
+            "+20.0% <span style=\"color: #E3E0D9\">Werewolf</span> Damage",
+            "+10 Willpower"
+          ]
+        },
+        {
+          "name": "Ripper",
+          "attributes": [
+            "+30.0% Critical Strike Damage",
+            "+10 Willpower"
+          ]
+        },
+        {
+          "name": "Recuperate",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+100 Life per 5 Seconds"
+          ]
+        },
+        {
+          "name": "Wild's Call",
+          "attributes": [
+            "+2.5% Attack Speed",
+            "+8 Maximum Spirit"
+          ]
+        },
+        {
+          "name": "Ferocity",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Fleeting",
+          "attributes": [
+            "12.0% Impairment Reduction",
+            "2.0% Dodge Chance"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "id": 994015,
+      "name": "Heightened Malice",
+      "nodeCount": 185,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Heightened Malice",
+          "description": "While a Poisoned enemy is Nearby, you deal 35%[x] increased damage, plus an additional 5%[x] for each additional Poisoned enemy, up to 4."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Immunization",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Denial",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Nature-born",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+6.0% Healing Received"
+          ]
+        },
+        {
+          "name": "Restorative",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+6.0% Healing Received"
+          ]
+        },
+        {
+          "name": "Sinking Fangs",
+          "attributes": [
+            "+20.0% Damage to Poisoned Enemies",
+            "+10 Willpower"
+          ]
+        },
+        {
+          "name": "Impel",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Willpower"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "id": 997766,
+      "name": "Inner Beast",
+      "nodeCount": 171,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Inner Beast",
+          "description": "After Shapeshifting, your Spirit costs are reduced by 4.5% for 10 seconds, up to 45%. If you reach 10 stacks, this bonus resets and reduces the Cooldown of your Ultimate Skill by 5 seconds."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Slayer",
+          "attributes": [
+            "+3.0% Total Armor",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Wilds",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+6.0% Healing Received"
+          ]
+        },
+        {
+          "name": "Nimble",
+          "attributes": [
+            "+2.5% Attack Speed",
+            "+20.0% Damage"
+          ]
+        },
+        {
+          "name": "Tenacity",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Shapeshifter",
+          "attributes": [
+            "+20.0% <span style=\"color: #E3E0D9\">Shapeshifting</span> Damage",
+            "+10 Willpower"
+          ]
+        },
+        {
+          "name": "Impel",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Willpower"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "id": 1195795,
+      "name": "Constricting Tendrils",
+      "nodeCount": 162,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Constricting Tendrils",
+          "description": "Deal 40%[x] increased damage against Poisoned enemies.Lucky Hit: Nature Magic Skills have up to a 40% chance to Poison the enemy for 1,000% damage over 4 seconds."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Denial",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Suffused Resilience",
+          "attributes": [
+            "+3.0% Total Armor",
+            "+3.0% Total Resistance"
+          ]
+        },
+        {
+          "name": "Superiority",
+          "attributes": [
+            "+5.0% Lucky Hit Chance",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Courage",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Nature's Will",
+          "attributes": [
+            "+20.0% <span style=\"color: #E3E0D9\">Nature Magic</span> Damage",
+            "+10 Willpower"
+          ]
+        },
+        {
+          "name": "Devastation",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Willpower"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "id": 1195797,
+      "name": "Ancestral Guidance",
+      "nodeCount": 174,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Ancestral Guidance",
+          "description": "After spending 75 Spirit, you deal 40%[x] increased damage for 5 seconds. Your Ultimate Skills deal 1%[x] increased damage per Spirit when cast. "
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Harmony",
+          "attributes": [
+            "+28.0% <span style=\"color: #E3E0D9\">Core</span> Damage",
+            "+10 Willpower"
+          ]
+        },
+        {
+          "name": "Guidance",
+          "attributes": [
+            "+20.0% Damage",
+            "+10 Willpower"
+          ]
+        },
+        {
+          "name": "Natural Attunement",
+          "attributes": [
+            "4.0% Resource Generation",
+            "4.0% Maximum Life"
+          ]
+        },
+        {
+          "name": "Spiritual Power",
+          "attributes": [
+            "+28.0% <span style=\"color: #E3E0D9\">Core</span> Damage",
+            "+5.0% <span style=\"color: #E3E0D9\">Basic</span> Attack Speed"
+          ]
+        },
+        {
+          "name": "Reclamation",
+          "attributes": [
+            "+8 Maximum Spirit",
+            "+2 Spirit On Kill"
+          ]
+        },
+        {
+          "name": "Resolve",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "id": 1985817,
+      "name": "Untamed",
+      "nodeCount": 171,
+      "legendaryNodeCount": 1,
+      "rareNodeCount": 6,
+      "isStartingBoard": false,
+      "gates": [
+        {
+          "direction": "North",
+          "x": 10,
+          "y": 0
+        },
+        {
+          "direction": "West",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "direction": "East",
+          "x": 20,
+          "y": 10
+        },
+        {
+          "direction": "South",
+          "x": 10,
+          "y": 20
+        }
+      ],
+      "gateCount": 4,
+      "legendaryNodes": [
+        {
+          "name": "Untamed",
+          "description": "Casting a Companion Skill grants 20%[x] increased Companion damage for 5 seconds, stacking up to 80%[x]."
+        }
+      ],
+      "rareNodes": [
+        {
+          "name": "Apex",
+          "attributes": [
+            "+30.0% <span style=\"color: #E3E0D9\">Companion</span> Damage",
+            "+10 Willpower"
+          ]
+        },
+        {
+          "name": "Fortune",
+          "attributes": [
+            "+30.0% <span style=\"color: #E3E0D9\">Companion</span> Damage",
+            "+10 Willpower"
+          ]
+        },
+        {
+          "name": "Ferocity",
+          "attributes": [
+            "3.0% <span style=\"color: #E3E0D9\">Companion</span> Cooldown Reduction",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Eminence",
+          "attributes": [
+            "4.0% Maximum Life",
+            "+2.0% Total Armor"
+          ]
+        },
+        {
+          "name": "Lucky Winds",
+          "attributes": [
+            "+5.0% Lucky Hit Chance",
+            "+25.0% Vulnerable Damage"
+          ]
+        },
+        {
+          "name": "Resolve",
+          "attributes": [
+            "+3.0% Total Resistance",
+            "4.0% Maximum Life"
+          ]
+        }
+      ]
+    }
+  ]
+}

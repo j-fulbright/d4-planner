@@ -1,18 +1,18 @@
 ```
 ╔═══════════════════════════════════════════════════════════════════════════╗
 ║                                                                           ║
-║   ██████╗ ██╗ █████╗ ██████╗ ██╗      ██████╗     ██╗  ██╗              ║
-║   ██╔══██╗██║██╔══██╗██╔══██╗██║     ██╔═══██╗    ██║  ██║              ║
-║   ██║  ██║██║███████║██████╔╝██║     ██║   ██║    ███████║              ║
-║   ██║  ██║██║██╔══██║██╔══██╗██║     ██║   ██║    ╚════██║              ║
-║   ██████╔╝██║██║  ██║██████╔╝███████╗╚██████╔╝         ██║              ║
-║   ╚═════╝ ╚═╝╚═╝  ╚═╝╚═════╝ ╚══════╝ ╚═════╝          ╚═╝              ║
+║   ██████╗ ██╗ █████╗ ██████╗ ██╗      ██████╗     ██╗  ██╗                ║
+║   ██╔══██╗██║██╔══██╗██╔══██╗██║     ██╔═══██╗    ██║  ██║                ║
+║   ██║  ██║██║███████║██████╔╝██║     ██║   ██║    ███████║                ║
+║   ██║  ██║██║██╔══██║██╔══██╗██║     ██║   ██║    ╚════██║                ║
+║   ██████╔╝██║██║  ██║██████╔╝███████╗╚██████╔╝         ██║                ║
+║   ╚═════╝ ╚═╝╚═╝  ╚═╝╚═════╝ ╚══════╝ ╚═════╝          ╚═╝                ║
 ║                                                                           ║
-║              ╔═══╗     PARAGON BOARD DATA COLLECTION     ╔═══╗           ║
-║              ║ ⬡ ║━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━║ ⬡ ║           ║
-║              ╚═══╝                                       ╚═══╝           ║
+║              ╔═══╗     PARAGON BOARD DATA COLLECTION     ╔═══╗            ║
+║              ║ ⬡ ║━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━║ ⬡ ║            ║
+║              ╚═══╝                                       ╚═══╝            ║
 ║                                                                           ║
-║                    🗡️  All Classes  •  All Boards  🛡️                    ║
+║                    🗡️  All Classes  •  All Boards  🛡️                     ║
 ║                                                                           ║
 ╚═══════════════════════════════════════════════════════════════════════════╝
 ```
@@ -34,7 +34,7 @@ This project contains:
 
 ```
     ╔════════════════════════════════════════════════════════════╗
-    ║           ⚔️  STARTING BOARD GUIDES - ALL CLASSES  ⚔️        ║
+    ║           ⚔️  STARTING BOARD GUIDES - ALL CLASSES  ⚔️      ║
     ╚════════════════════════════════════════════════════════════╝
 ```
 
@@ -63,9 +63,9 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 
 ```
     ╔════════════════════════════════════════════════════════════╗
-    ║              🔥 LEGENDARY BOARD COLLECTIONS 🔥              ║
+    ║              🔥 LEGENDARY BOARD COLLECTIONS 🔥             ║
     ║                                                            ║
-    ║    ⬡━━━⬡━━━⬡        10 Boards Per Class        ⬡━━━⬡━━━⬡   ║
+    ║    ⬡━━━⬡━━━⬡        10 Boards Per Class        ⬡━━━⬡━━━⬡  ║
     ╚════════════════════════════════════════════════════════════╝
 ```
 
@@ -110,6 +110,95 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 8. Sentencing (162 nodes) - Judging enemies
 9. Endure (174 nodes) - Fortify damage
 10. Beacon (171 nodes) - Aura support
+
+### Sorcerer (Class ID: 0)
+**Files:**
+- [`sorcerer-paragon-boards.json`](classes/sorcerer/sorcerer-paragon-boards.json) - Full data with all node details
+- [`sorcerer-boards-summary.json`](classes/sorcerer/sorcerer-boards-summary.json) - Simplified summary
+- [`SORCERER_PARAGON_BOARDS.md`](classes/sorcerer/SORCERER_PARAGON_BOARDS.md) - Complete documentation
+
+**10 Boards:**
+1. Starting Board (75 nodes)
+2. Searing Heat (191 nodes) - Pyromancy Critical Strike
+3. Burning Instinct (185 nodes) - Fire damage
+4. Frigid Fate (164 nodes) - Frost/Vulnerable
+5. Icefall (171 nodes) - Ice damage
+6. Static Surge (156 nodes) - Lightning stacks
+7. Ceaseless Conduit (162 nodes) - Shock scaling
+8. Elemental Summoner (158 nodes) - Conjuration
+9. Enchantment Master (174 nodes) - Enchantments
+10. Fundamental Release (171 nodes) - Core skills
+
+### Necromancer (Class ID: 4)
+**Files:**
+- [`necromancer-paragon-boards.json`](classes/necromancer/necromancer-paragon-boards.json) - Full data with all node details
+- [`necromancer-boards-summary.json`](classes/necromancer/necromancer-boards-summary.json) - Simplified summary
+- [`NECROMANCER_PARAGON_BOARDS.md`](classes/necromancer/NECROMANCER_PARAGON_BOARDS.md) - Complete documentation
+
+**10 Boards:**
+1. Starting Board (75 nodes)
+2. Cult Leader (191 nodes) - Minion damage
+3. Hulking Monstrosity (164 nodes) - Golem power
+4. Flesh-eater (156 nodes) - Corpse consumption
+5. Scent of Death (158 nodes) - Corpse skills
+6. Bone Graft (185 nodes) - Bone skills Critical
+7. Blood Begets Blood (171 nodes) - Blood Orbs
+8. Bloodbath (162 nodes) - Blood skills
+9. Wither (174 nodes) - Shadow damage
+10. Frailty (171 nodes) - Vulnerable stacking
+
+### Rogue (Class ID: 3)
+**Files:**
+- [`rogue-paragon-boards.json`](classes/rogue/rogue-paragon-boards.json) - Full data with all node details
+- [`rogue-boards-summary.json`](classes/rogue/rogue-boards-summary.json) - Simplified summary
+- [`ROGUE_PARAGON_BOARDS.md`](classes/rogue/ROGUE_PARAGON_BOARDS.md) - Complete documentation
+
+**10 Boards:**
+1. Starting Board (75 nodes)
+2. Eldritch Bounty (191 nodes) - Imbue effects
+3. Tricks of the Trade (164 nodes) - Subterfuge
+4. Cheap Shot (156 nodes) - Crowd Control
+5. Deadly Ambush (158 nodes) - Vulnerable burst
+6. Leyrana's Instinct (185 nodes) - Marksman
+7. No Witnesses (171 nodes) - Stealth kills
+8. Exploit Weakness (162 nodes) - Trap damage
+9. Cunning Stratagem (174 nodes) - Combo Points
+10. Danse Macabre (171 nodes) - Ultimate scaling
+
+### Druid (Class ID: 1)
+**Files:**
+- [`druid-paragon-boards.json`](classes/druid/druid-paragon-boards.json) - Full data with all node details
+- [`druid-boards-summary.json`](classes/druid/druid-boards-summary.json) - Simplified summary
+- [`DRUID_PARAGON_BOARDS.md`](classes/druid/DRUID_PARAGON_BOARDS.md) - Complete documentation
+
+**10 Boards:**
+1. Starting Board (75 nodes)
+2. Thunderstruck (191 nodes) - Storm skills
+3. Earthen Devastation (164 nodes) - Earth skills
+4. Survival Instincts (156 nodes) - Defensive
+5. Lust for Carnage (158 nodes) - Critical Strike
+6. Heightened Malice (185 nodes) - Poison
+7. Inner Beast (171 nodes) - Shapeshifting
+8. Constricting Tendrils (162 nodes) - Companion
+9. Ancestral Guidance (174 nodes) - Spirit generation
+10. Untamed (171 nodes) - Fortify scaling
+
+### Spiritborn (Class ID: 5)
+**Files:**
+- [`spiritborn-paragon-boards.json`](classes/spiritborn/spiritborn-paragon-boards.json) - Full data with all node details
+- [`spiritborn-boards-summary.json`](classes/spiritborn/spiritborn-boards-summary.json) - Simplified summary
+- [`SPIRITBORN_PARAGON_BOARDS.md`](classes/spiritborn/SPIRITBORN_PARAGON_BOARDS.md) - Complete documentation
+
+**9 Boards:**
+1. Starting Board (75 nodes)
+2. In-Fighter (191 nodes) - Close combat
+3. Spiney Skin (164 nodes) - Defensive
+4. Viscous Shield (156 nodes) - Barrier
+5. Bitter Medicine (160 nodes) - Healing
+6. Revealing (185 nodes) - Detection
+7. Drive (170 nodes) - Movement
+8. Convergence (162 nodes) - Spirit synergy
+9. Sapping (173 nodes) - Resource drain
 
 ---
 
@@ -228,7 +317,7 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 
 ```
     ╔════════════════════════════════════════════════════════════╗
-    ║                  ⚙️  SCRIPTS & TOOLS  ⚙️                    ║
+    ║                  ⚙️  SCRIPTS & TOOLS  ⚙️                   ║
     ╚════════════════════════════════════════════════════════════╝
 ```
 
