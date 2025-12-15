@@ -19,13 +19,13 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 
 | Class | Primary Stat | Resource | File |
 |-------|--------------|----------|------|
-| **Barbarian** | Strength | Fury | [Guide](STARTING_BOARD_STATS_GUIDE.md) |
-| **Paladin** | Strength | N/A | [Guide](PALADIN_STARTING_BOARD_STATS_GUIDE.md) |
-| **Sorcerer** | Intelligence | Mana | [Guide](SORCERER_STARTING_BOARD_STATS_GUIDE.md) |
-| **Necromancer** | Intelligence | Essence | [Guide](NECROMANCER_STARTING_BOARD_STATS_GUIDE.md) |
-| **Rogue** | Dexterity | Energy | [Guide](ROGUE_STARTING_BOARD_STATS_GUIDE.md) |
-| **Druid** | Willpower | Spirit | [Guide](DRUID_STARTING_BOARD_STATS_GUIDE.md) |
-| **Spiritborn** | Dexterity | Vigor | [Guide](SPIRITBORN_STARTING_BOARD_STATS_GUIDE.md) |
+| **Barbarian** | Strength | Fury | [Guide](classes/barbarian/BARBARIAN_STARTING_BOARD_STATS_GUIDE.md) |
+| **Paladin** | Strength | N/A | [Guide](classes/paladin/PALADIN_STARTING_BOARD_STATS_GUIDE.md) |
+| **Sorcerer** | Intelligence | Mana | [Guide](classes/sorcerer/SORCERER_STARTING_BOARD_STATS_GUIDE.md) |
+| **Necromancer** | Intelligence | Essence | [Guide](classes/necromancer/NECROMANCER_STARTING_BOARD_STATS_GUIDE.md) |
+| **Rogue** | Dexterity | Energy | [Guide](classes/rogue/ROGUE_STARTING_BOARD_STATS_GUIDE.md) |
+| **Druid** | Willpower | Spirit | [Guide](classes/druid/DRUID_STARTING_BOARD_STATS_GUIDE.md) |
+| **Spiritborn** | Dexterity | Vigor | [Guide](classes/spiritborn/SPIRITBORN_STARTING_BOARD_STATS_GUIDE.md) |
 
 ### Starting Board Structure (Universal)
 - **Total Nodes:** 75 (same for all classes)
@@ -40,11 +40,11 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 
 ### Barbarian (Class ID: 2)
 **Files:**
-- `barbarian-paragon-boards.json` - Full data with all node details
-- `barbarian-boards-summary.json` - Simplified summary
-- `barbarian-board-paths.json` - Path analysis with distances
-- `BARBARIAN_PARAGON_BOARDS.md` - Complete documentation
-- `BARBARIAN_STARTING_BOARD_PATHS.md` - Visual path guides
+- [`barbarian-paragon-boards.json`](classes/barbarian/barbarian-paragon-boards.json) - Full data with all node details
+- [`barbarian-boards-summary.json`](classes/barbarian/barbarian-boards-summary.json) - Simplified summary
+- [`barbarian-board-paths.json`](classes/barbarian/barbarian-board-paths.json) - Path analysis with distances
+- [`BARBARIAN_PARAGON_BOARDS.md`](classes/barbarian/BARBARIAN_PARAGON_BOARDS.md) - Complete documentation
+- [`BARBARIAN_STARTING_BOARD_PATHS.md`](classes/barbarian/BARBARIAN_STARTING_BOARD_PATHS.md) - Visual path guides
 
 **10 Boards:**
 1. Starting Board (75 nodes)
@@ -60,11 +60,11 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 
 ### Paladin (Class ID: 6)
 **Files:**
-- `paladin-paragon-boards.json` - Full data with all node details
-- `paladin-boards-summary.json` - Simplified summary
-- `paladin-board-paths.json` - Path analysis with distances
-- `PALADIN_PARAGON_BOARDS.md` - Complete documentation
-- `PALADIN_STARTING_BOARD_PATHS.md` - Visual path guides
+- [`paladin-paragon-boards.json`](classes/paladin/paladin-paragon-boards.json) - Full data with all node details
+- [`paladin-boards-summary.json`](classes/paladin/paladin-boards-summary.json) - Simplified summary
+- [`paladin-board-paths.json`](classes/paladin/paladin-board-paths.json) - Path analysis with distances
+- [`PALADIN_PARAGON_BOARDS.md`](classes/paladin/PALADIN_PARAGON_BOARDS.md) - Complete documentation
+- [`PALADIN_STARTING_BOARD_PATHS.md`](classes/paladin/PALADIN_STARTING_BOARD_PATHS.md) - Visual path guides
 
 **10 Boards:**
 1. Starting Board (75 nodes)
@@ -83,9 +83,8 @@ Each guide includes optimal paths, stat breakdowns, and build recommendations:
 ## 📁 Data Files
 
 ### Raw Data
-- `wowhead-paragon-raw.json` (556KB) - Original Wowhead API response
-- `paragon-all-data.json` - Parsed data for all classes
-- `paragon-boards-clean.json` - Clean board node positions
+- [`wowhead-paragon-raw.json`](raw-data/wowhead-paragon-raw.json) (556KB) - Original Wowhead API response
+- [`paragon-all-data.json`](raw-data/paragon-all-data.json) - Parsed data for all classes
 
 ### Parsed Data Structure
 ```json
