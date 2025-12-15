@@ -18,7 +18,7 @@ Theorycraft value calculations for all Barbarian paragon boards.
 
 ---
 
-## Board 1: Board_921459
+## Board 1: Starting Board
 
 **Board ID:** 921459
 **Total Nodes:** 75
@@ -41,7 +41,7 @@ Theorycraft value calculations for all Barbarian paragon boards.
 
 ---
 
-## Board 2: Board_921475
+## Board 2: Hemorrhage
 
 **Board ID:** 921475
 **Total Nodes:** 191
@@ -71,7 +71,7 @@ Theorycraft value calculations for all Barbarian paragon boards.
 
 ---
 
-## Board 3: Board_921460
+## Board 3: Blood Rage
 
 **Board ID:** 921460
 **Total Nodes:** 164
@@ -101,7 +101,7 @@ Theorycraft value calculations for all Barbarian paragon boards.
 
 ---
 
-## Board 4: Board_921481
+## Board 4: Carnage
 
 **Board ID:** 921481
 **Total Nodes:** 156
@@ -131,7 +131,7 @@ Theorycraft value calculations for all Barbarian paragon boards.
 
 ---
 
-## Board 5: Board_939079
+## Board 5: Decimator
 
 **Board ID:** 939079
 **Total Nodes:** 158
@@ -161,7 +161,7 @@ Theorycraft value calculations for all Barbarian paragon boards.
 
 ---
 
-## Board 6: Board_993298
+## Board 6: Bone Breaker
 
 **Board ID:** 993298
 **Total Nodes:** 185
@@ -191,7 +191,7 @@ Theorycraft value calculations for all Barbarian paragon boards.
 
 ---
 
-## Board 7: Board_997728
+## Board 7: Flawless Technique
 
 **Board ID:** 997728
 **Total Nodes:** 171
@@ -221,7 +221,7 @@ Theorycraft value calculations for all Barbarian paragon boards.
 
 ---
 
-## Board 8: Board_1194322
+## Board 8: Warbringer
 
 **Board ID:** 1194322
 **Total Nodes:** 162
@@ -251,7 +251,7 @@ Theorycraft value calculations for all Barbarian paragon boards.
 
 ---
 
-## Board 9: Board_1194330
+## Board 9: Weapons Master
 
 **Board ID:** 1194330
 **Total Nodes:** 174
@@ -281,7 +281,7 @@ Theorycraft value calculations for all Barbarian paragon boards.
 
 ---
 
-## Board 10: Board_1985448
+## Board 10: Force of Nature
 
 **Board ID:** 1985448
 **Total Nodes:** 171
@@ -315,16 +315,16 @@ Theorycraft value calculations for all Barbarian paragon boards.
 
 | Board # | Board Name | Rare Count | Legendary | Est. Total Value |
 |---------|------------|------------|-----------|------------------|
-| 1 | Board_921459 | 4 | ❌ | ~60 value |
-| 2 | Board_921475 | 6 | ✅ | ~90 value |
-| 3 | Board_921460 | 6 | ✅ | ~90 value |
-| 4 | Board_921481 | 6 | ✅ | ~90 value |
-| 5 | Board_939079 | 6 | ✅ | ~90 value |
-| 6 | Board_993298 | 6 | ✅ | ~90 value |
-| 7 | Board_997728 | 6 | ✅ | ~90 value |
-| 8 | Board_1194322 | 6 | ✅ | ~90 value |
-| 9 | Board_1194330 | 6 | ✅ | ~90 value |
-| 10 | Board_1985448 | 6 | ✅ | ~90 value |
+| 1 | Starting Board | 4 | ❌ | ~60 value |
+| 2 | Hemorrhage | 6 | ✅ | ~90 value |
+| 3 | Blood Rage | 6 | ✅ | ~90 value |
+| 4 | Carnage | 6 | ✅ | ~90 value |
+| 5 | Decimator | 6 | ✅ | ~90 value |
+| 6 | Bone Breaker | 6 | ✅ | ~90 value |
+| 7 | Flawless Technique | 6 | ✅ | ~90 value |
+| 8 | Warbringer | 6 | ✅ | ~90 value |
+| 9 | Weapons Master | 6 | ✅ | ~90 value |
+| 10 | Force of Nature | 6 | ✅ | ~90 value |
 
 ---
 

@@ -6,7 +6,7 @@
     {
       "index": 1,
       "id": 921459,
-      "name": "Board_921459",
+      "name": "Starting Board",
       "nodeCount": 75,
       "legendaryNodeCount": 0,
       "rareNodeCount": 4,
@@ -54,7 +54,7 @@
     {
       "index": 2,
       "id": 921475,
-      "name": "Board_921475",
+      "name": "Hemorrhage",
       "nodeCount": 191,
       "legendaryNodeCount": 1,
       "rareNodeCount": 6,
@@ -136,7 +136,7 @@
     {
       "index": 3,
       "id": 921460,
-      "name": "Board_921460",
+      "name": "Blood Rage",
       "nodeCount": 164,
       "legendaryNodeCount": 1,
       "rareNodeCount": 6,
@@ -218,7 +218,7 @@
     {
       "index": 4,
       "id": 921481,
-      "name": "Board_921481",
+      "name": "Carnage",
       "nodeCount": 156,
       "legendaryNodeCount": 1,
       "rareNodeCount": 6,
@@ -300,7 +300,7 @@
     {
       "index": 5,
       "id": 939079,
-      "name": "Board_939079",
+      "name": "Decimator",
       "nodeCount": 158,
       "legendaryNodeCount": 1,
       "rareNodeCount": 6,
@@ -382,7 +382,7 @@
     {
       "index": 6,
       "id": 993298,
-      "name": "Board_993298",
+      "name": "Bone Breaker",
       "nodeCount": 185,
       "legendaryNodeCount": 1,
       "rareNodeCount": 6,
@@ -464,7 +464,7 @@
     {
       "index": 7,
       "id": 997728,
-      "name": "Board_997728",
+      "name": "Flawless Technique",
       "nodeCount": 171,
       "legendaryNodeCount": 1,
       "rareNodeCount": 6,
@@ -546,7 +546,7 @@
     {
       "index": 8,
       "id": 1194322,
-      "name": "Board_1194322",
+      "name": "Warbringer",
       "nodeCount": 162,
       "legendaryNodeCount": 1,
       "rareNodeCount": 6,
@@ -628,7 +628,7 @@
     {
       "index": 9,
       "id": 1194330,
-      "name": "Board_1194330",
+      "name": "Weapons Master",
       "nodeCount": 174,
       "legendaryNodeCount": 1,
       "rareNodeCount": 6,
@@ -710,7 +710,7 @@
     {
       "index": 10,
       "id": 1985448,
-      "name": "Board_1985448",
+      "name": "Force of Nature",
       "nodeCount": 171,
       "legendaryNodeCount": 1,
       "rareNodeCount": 6,
